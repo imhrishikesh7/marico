@@ -1,0 +1,158 @@
+/* Navbar.css */
+.navnav {
+    position: sticky;
+    width: 100%;
+    z-index: 12;
+    top: 0;
+}
+
+.nav-background {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: white;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.pushNav {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 14;
+    overflow-y: auto;
+    background: #002a39;
+    width: 300px;
+    right: -300px;
+    padding-left: 20px;
+    transition: ease-in-out 0.5s;
+}
+
+.closeLevel,
+.openLevel {
+    cursor: pointer;
+    padding: 1em 0.6em;
+}
+
+.openLevel,
+.closeLevel,
+.pushNav a {
+    padding: 0.6em 0 0.6em 0.6em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.closeLevel,
+.closelevel > i {
+    font-size: 0.8em;
+}
+
+ul.pushNav {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.pushNav a {
+    font-size: 14px;
+    font-family: helvetica, sans-serif;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    z-index: 10;
+}
+
+.pushNavIsOpen {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.js-topPushNav.isOpen,
+.pushNav_level.isOpen {
+    right: 0;
+    background-color: #8bdaf6;
+}
+
+.openLevel,
+.closeLevel {
+    cursor: pointer;
+}
+
+.openLevel,
+.closeLevel,
+.pushNav a {
+    display: block;
+    transition: background 0.4s ease-in-out;
+}
+
+.openLevel:hover,
+.closeLevel:hover,
+.pushNav a:hover {
+    background: #76bdd7;
+}
+
+.hdg {
+    background-color: #57abca;
+    color: black;
+}
+.closeLevel,
+.closelevel > i {
+    color: black;
+}
+
+.burger {
+    cursor: pointer;
+    z-index: 12;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 24px;
+    background: transparent;
+    z-index: 11;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.logo img {
+    max-width: 70px;
+    width: 70px;
+}
+
+.scrolled .nav-background {
+    opacity: 1;
+}
+
+.screen {
+    display: none;
+}
+
+.js-topPushNav.isOpen ~ .screen {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 13;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        z-index: 11;
+    }
+}

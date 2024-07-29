@@ -1,0 +1,10 @@
+body{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+.marginal{
+  width: 86%;
+  margin: 5% auto;
+  max-width: 1400px;
+}
