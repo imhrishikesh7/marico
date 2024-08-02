@@ -1,49 +1,63 @@
-import React, { useEffect, useState } from 'react';
-import './About.css'; // Import the CSS file
+import React from 'react';
+import './About.css';
+import Headings from '../Headings/Headings';
+import { motion, AnimatePresence } from 'framer-motion';
+
+const images = [
+    './homepage/Group1.png',
+    './homepage/Group2.png'
+];
 
 const About = () => {
-  const [scrolled, setScrolled] = useState(false);
+    const [index, setIndex] = React.useState(0);
+    const isMobile = window.innerWidth <= 768; // Detect if the screen is mobile size
 
-  const handleScroll = () => {
-    const top = window.scrollY;
-    const triggerHeight = window.innerHeight / 2; // Middle of the screen
-    if (top > triggerHeight) {
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-    }
-  };
+    React.useEffect(() => {
+        if (isMobile) return; // Skip image switching on mobile
 
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+        const interval = setInterval(() => {
+            setIndex((prevIndex) => (prevIndex + 1) % images.length);
+        }, 3000); // Change image every 3 seconds
+        return () => clearInterval(interval);
+    }, [isMobile]);
 
-  return (
-    <div className='about-section'>
-        <h2>Our values encapsulate both our </h2>
-        <h1>thought and action</h1>
-    <div className="parent-container">
-        
-      <div className={`pinned-box ${scrolled ? 'scrolled' : ''}`}>
-        <div className="box-row first-row">
-          <div className="box"><img src="./homepage/val.svg" className='img-fluid' alt="" /></div>
-          <div className="box"><img src="./homepage/val2.svg" className='img-fluid' alt="" /></div>
-          <div className="box"><img src="./homepage/val3.svg" className='img-fluid' alt="" /></div>
-          <div className="box"><img src="./homepage/val4.svg" className='img-fluid' alt="" /></div>
+    return (
+        <div className='marginal'>
+            <div className='about-section'>
+                <div className='row about-row justify-content-center'>
+                    <div className='col-lg-6 abt-imgs'>
+                        <AnimatePresence>
+                            {!isMobile ? (
+                                <motion.img
+                                    key={index}
+                                    src={images[index]}
+                                    className='img-fluid'
+                                    alt=""
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    exit={{ opacity: 0 }}
+                                    transition={{ duration: 1 }}
+                                />
+                            ) : (
+                                <img
+                                    src={images[0]}
+                                    className='img-fluid'
+                                    alt=""
+                                />
+                            )}
+                        </AnimatePresence>
+                    </div>
+                    <div className='col-lg-6 abt-content'>
+                        <Headings he1={"About"} he2={"Marico"} clr={"green"} svg={"./homepage/bleaf.svg"} />
+                        <p>
+                            Marico (BSE 531642, NSE "MARICO") is one of India's leading consumer products
+                            companies, in the global beauty and wellness space.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div className={`box-row second-row ${scrolled ? 'visible' : ''}`}>
-        <div className="box"><img src="./homepage/val.svg" className='img-fluid' alt="" /></div>
-          <div className="box"><img src="./homepage/val2.svg" className='img-fluid' alt="" /></div>
-          <div className="box"><img src="./homepage/val3.svg" className='img-fluid' alt="" /></div>
-          <div className="box"><img src="./homepage/val4.svg" className='img-fluid' alt="" /></div>
-        </div>
-      </div>
-    </div>
-    </div>
-  );
+    );
 };
 
 export default About;

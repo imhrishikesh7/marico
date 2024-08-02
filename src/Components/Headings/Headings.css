@@ -1,0 +1,14 @@
+/* Position for phones (default) */
+.heading-container img {
+    position: absolute;
+    right: 50%;
+    top: 0;
+}
+
+/* Position for large screens */
+@media (max-width: 992px) { /* Adjust the breakpoint as needed */
+   .heading-container img {
+        right: 0;
+        left: auto;
+    }
+}

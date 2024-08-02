@@ -28,9 +28,7 @@
     box-sizing: border-box; /* Ensure padding and border do not cause overflow */
   }
   
-  html {
-    font-size: 62.5%; /* 1rem = 10px */
-  }
+ 
   
   body {
     overflow-x: hidden; /* Remove horizontal scroll */
@@ -212,8 +210,8 @@
     position: fixed;
     top: 1rem;
     right: 1rem; /* Adjust to keep within viewport */
-    width: 6rem;
-    height: 6rem;
+    width: 4em;
+    height: 4em;
     border-radius: 50%;
     background-color: var(--color-white);
     box-shadow: 0 1rem 3rem rgba(var(--color-black), 0.2);
@@ -228,8 +226,8 @@
     position: fixed;
     top: 1rem;
     right: 1rem; /* Adjust to keep within viewport */
-    width: 6rem;
-    height: 6rem;
+    width: 4em;
+    height: 4em;
     border-radius: 50%;
     background-image: radial-gradient(
       var(--color-primary-light),
@@ -309,14 +307,14 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    width: 3rem; /* Width of the icon */
+    width: 2rem; /* Width of the icon */
     height: 3rem; /* Height of the icon to accommodate vertical centering */
   }
   
   .navigation__icon-span {
     position: absolute;
-    height: 0.3rem; /* Thickness of each bar */
-    width: 2.5rem; /* Width of each bar */
+    height: 0.2rem; /* Thickness of each bar */
+    width: 1.5em; /* Width of each bar */
     
     background: var(--color-grey-dark-2);
     border-radius: 0.2rem; /* Rounded bars */
@@ -325,17 +323,17 @@
   
   /* Center the bars */
   .navigation__icon-span:nth-child(1) {
-    top: 0.7rem; /* Position the top bar */
+    top: 1rem; /* Position the top bar */
     left: 0.25rem; /* Center horizontally */
   }
   
   .navigation__icon-span:nth-child(2) {
-    top: 1.4rem; /* Center vertically */
+    top: 1.5rem; /* Center vertically */
     left: 0.25rem; /* Center horizontally */
   }
   
   .navigation__icon-span:nth-child(3) {
-    top: 2.1rem; /* Position the bottom bar */
+    top: 2rem; /* Position the bottom bar */
     left: 0.25rem; /* Center horizontally */
   }
   

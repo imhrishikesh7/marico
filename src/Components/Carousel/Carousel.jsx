@@ -79,7 +79,7 @@ const Carousel = ({ index }) => {
                 <div className="left">
                     <div className="details">
                         <div className='details-card dt1'>
-                            <h2 className='display-4'>Our</h2>
+                            <h2 className='display-5'>Our</h2>
                             <h1>Purpose</h1>
                             <p>
                                 As a company founded on the principles of conscious capitalism, our core Purpose is to leave a lasting impact in the lives of our stakeholders and the planet. We strive to look beyond our operational boundaries to positively impact society by nurturing and empowering communities. <br /> <br />
@@ -93,7 +93,7 @@ const Carousel = ({ index }) => {
                     </div>
                     <div className="details">
                         <div className='details-card dt2'>
-                            <h2 className='display-4'>Our</h2>
+                            <h2 className='display-5'>Our</h2>
                             <h1>Ethos</h1>
                             <p>
                                 Our Ethos inspires us to embrace the owner’s mindset and make a difference for our customers, business partners,
@@ -111,7 +111,7 @@ const Carousel = ({ index }) => {
                     </div>
                     <div className="details">
                         <div className='details-card dt3'>
-                            <h2 className='display-4'>Consumer</h2>
+                            <h2 className='display-5'>Consumer</h2>
                             <h1>First</h1>
                             <p>
                                 Our Consumer-Centric approach encourages us to consistently analyse consumers’ evolving aspirations, address their unmet needs and map their journeys across brands.  <br /> <br />
@@ -123,7 +123,7 @@ const Carousel = ({ index }) => {
                     </div>
                     <div className="details">
                         <div className='details-card dt4'>
-                        <h2 className='display-4'>Bold</h2>
+                        <h2 className='display-5'>Bold</h2>
                             <h1>Ambition</h1>
                             <p>
                             As a brand with Bold Ambition, we set ambitious goals and pursue global excellence across every aspect of our operations. Our risk-taking strategy is well-crafted, considering all potential risks. This empowers us to take courageous and purposeful
@@ -136,7 +136,7 @@ const Carousel = ({ index }) => {
                     </div>
                     <div className="details">
                         <div className='details-card dt5'>
-                        <h2 className='display-4'>Responsible</h2>
+                        <h2 className='display-5'>Responsible</h2>
                             <h1>Growth</h1>
                             <p>
                             Our Responsible Growth strategy serves as a strong foundation for building the Marico of tomorrow. At Marico, we pursue the broad principles of stakeholder capitalism across various facets – delighting consumers by providing industry-leading quality products; helping our members accomplish their professional goals; complying with ethical and sustainable business practices.
@@ -148,7 +148,7 @@ const Carousel = ({ index }) => {
                     </div>
                     <div className="details">
                         <div className='details-card dt6'>
-                        <h2 className='display-4'>Grow with</h2>
+                        <h2 className='display-5'>Grow with</h2>
                             <h1>Members</h1>
                             <p>
                             Our Members are the pillars of our success and hence we nurture, empower, and collaborate with each other and grow together. Focusing on our members' growth aspirations and wellbeing enable us to deliver superlative business outcomes. We will continue to foster a more diverse and inclusive work environment.
@@ -160,7 +160,7 @@ const Carousel = ({ index }) => {
                     </div>
                     <div className="details">
                         <div className='details-card dt7'>
-                        <h2 className='display-4'>Accountability for</h2>
+                        <h2 className='display-5'>Accountability for</h2>
                             <h1>Outcomes</h1>
                             <p>
                             At Marico, we are committed to deliver what we promise in a dynamic business landscape. Therefore, our strategies are flexible and agile in responding to changes in the operating environment. We analyse various scenarios and craft fit for purpose solutions accordingly. <br /><br />
@@ -173,7 +173,7 @@ const Carousel = ({ index }) => {
                     </div>
                     <div className="details">
                         <div className='details-card dt8'>
-                        <h2 className='display-4'>Execute with</h2>
+                        <h2 className='display-5'>Execute with</h2>
                             <h1>Agility</h1>
                             <p>
                             We adapt to changing scenarios with speed and prudence. We pursue outcomes with scenario planning, meticulous tracking and dynamic resource allocation. Stringent adherence to appropriate processes and technologies enable us to deliver outcomes and stay ahead of the curve. Pertinent technology and right processes empower us to scale rapidly.
