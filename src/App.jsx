@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
+import  Navigation  from './Components/Navbar/Navigation';
 
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
   return (
     <div className='containerx'>
       <BrowserRouter>
-      <Navbar/>
+      {/* <Navbar/> */}
+      <Navigation/>
+      {/* <Header/> */}
       <div className='content '>
       {/* <Routes> */}
       {/* <Route path='/' element={<Home />} /> */}
