@@ -1,9 +1,22 @@
 .cov {
-    width: 100%;
-    justify-content: center;
+    position: relative;
+    z-index: 1;
 }
+.themeline{
+    z-index: 11;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    position: absolute;
+    }
+.themeline h2{
+    color: #a4cf57;
+    font-size: 3em;
 
-.cov img {
-    width: 100%;
-    margin: auto;
+}
+.themeline h1{
+    margin: 0;
+    font-size: 5em;
+    font-weight: 700;
+    color: #2366b3;
 }
