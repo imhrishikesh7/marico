@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import  Navigation  from './Components/Navbar/Navigation';
 import Footer from './Components/Footer/Footer';
+import Investor from './Pages/Investor';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       {/* <Routes> */}
       {/* <Route path='/' element={<Home />} /> */}
       <Home/>
+      <Investor/>
       {/* </Routes> */}
       </div>
       <Footer/>

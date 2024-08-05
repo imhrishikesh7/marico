@@ -8,3 +8,9 @@
 .react-multiple-carousel__arrow--left {
     left:0%
 }
+
+@media (max-width: 1580px) { /* Adjust the breakpoint as needed */
+    .financial-component{
+        margin-top: 35vh !important;
+    }
+ }
