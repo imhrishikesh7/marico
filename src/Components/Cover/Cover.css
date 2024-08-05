@@ -9,6 +9,22 @@
     left: 10%;
     position: absolute;
     }
+    .border-container {
+        position: relative;
+        display: inline-block;
+      }
+      .i-wrapper {
+        display: inline-block;
+        position: relative;
+      }
+      
+      .i-wrapper::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+      }
+
 .themeline h2{
     color: #a4cf57;
     font-size: 3em;

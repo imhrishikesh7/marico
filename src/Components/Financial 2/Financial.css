@@ -1,6 +1,12 @@
 .financial-component{
-    margin-top: 25vh;
+    margin-top: 10vh;
 }
+@media (max-width: 1400px) { /* Adjust the breakpoint as needed */
+    .financial-component{
+        margin-top: 35vh;
+    }
+ }
+ 
 .react-multiple-carousel__arrow--right {
     right: 0%;
 }

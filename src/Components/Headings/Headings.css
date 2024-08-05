@@ -4,6 +4,14 @@
     right: 50%;   
     top: 0;
 }
+.heading-container h2 {
+ font-size: 1.5em;
+}
+.heading-container h1 {
+ font-size: 7em;
+ font-weight: 500;
+ line-height: 0.9;
+}
 
 /* Position for large screens */
 @media (max-width: 992px) { /* Adjust the breakpoint as needed */

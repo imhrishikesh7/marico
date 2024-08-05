@@ -4,6 +4,7 @@ import About from '../Components/About/About'
 import Carousel from '../Components/Carousel/Carousel'
 import ProductFilter from '../Components/ProductFilter/ProductFilter'
 import Financial from '../Components/Financial 2/Financial'
+import Leadership from '../Components/Leadership/Leadership'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Carousel/>
         <ProductFilter/>
         <Financial/>
+        <Leadership/>
         </div>
     </div>
   )

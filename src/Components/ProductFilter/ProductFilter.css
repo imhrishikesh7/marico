@@ -30,8 +30,20 @@
 .product-list {
   position: relative;
   z-index: 2; /* Make sure content is above the wave effects */
+  /* background-image: url("/prod-svg/India background@2x@2x.png"); */
+  border-top: 1px solid white;
+  margin: auto;
 }
+.country-svg{
+    width: 80%;
+    margin: auto;
+}
+.country-svg img{
+    width: 100%;
 
+    margin: auto;
+
+}
 
 .product-image {
   width: 100%;

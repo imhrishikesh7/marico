@@ -1,0 +1,102 @@
+/* Leadership.css */
+.carousel-container {
+  /* height: 90vh; */
+  margin: auto;
+  position: relative;
+  padding: 20px; /* Optional: Add padding for spacing */
+  overflow: hidden; /* Hide any overflow to prevent shifting */
+}
+.leaf-wrapperx{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Space between buttons and carousel */
+}
+
+.filter-buttons button {
+  background-color: rgb(52, 131, 161, 0.5); /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 10px;     
+  padding: 10px 20px;       
+  margin: 0 10px;
+  font-weight: bold; /* Optional: Make the active button bold */
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.filter-buttons button:hover {
+  background-color: #3483a1; /* Darker background on hover */
+}
+.filter-buttons button.active {
+  background-color: #3483a1; /* Different background for active button */
+  font-weight: bold; /* Optional: Make the active button bold */
+  transform: scale(1.05); /* Optional: Slightly enlarge the active button */
+}
+
+.slider-container {
+  width: 80%;
+  margin: auto;
+  /* Fix the height to prevent layout shifting */
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; /* Optional: Add padding to slides */
+}
+
+.carousel-image {
+  max-width: 100%; /* Ensure images do not exceed container width */
+  max-height: 100%; /* Ensure images do not exceed container height */
+  object-fit: cover; /* Cover the image area while maintaining aspect ratio */
+  border-radius: 8px; /* Optional: Rounded corners */
+  display: block;
+}
+/* Leadership.css */
+
+/* Leadership.css */
+.slick-prev,
+.slick-next {
+  /* width: 40px; */
+  /* height: 40%; */
+
+  transition: all 0.3s ease-in-out;
+  /* background-color: ;  */
+  z-index: 10;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  /* background-color: rgb(0, 0, 0, 0.5); */
+  /* padding: 5%; */
+  width: 80px;
+  height: 40px;
+  color: rgb(0, 0, 0, 0.5);
+  border-radius: 100%;
+  font-size: 42px; /* Adjust arrow size */
+}
+
+.slick-prev {
+  left: -7%;
+  /* border-radius: 0 10px 10px 0; */
+
+}
+
+.slick-next {
+  /* border-radius: 10px 0 0 10px; */
+  right: -5%;
+}
+
+/* Optional: Add hover effect */
+.slick-prev:hover,
+.slick-next:hover {
+
+}
+

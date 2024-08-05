@@ -39,7 +39,7 @@ const About = () => {
                         />
                     </div>
                     <div className='col-lg-6 abt-content'>
-                        <Headings he1={"About"} he2={"Marico"} clr={"green"} svg={"./homepage/bleaf.svg"} />
+                        <Headings he1={"About"} he2={"Marico"} clr2={"green"} clr={"blue"} />
                         <p>
                             Marico (BSE 531642, NSE "MARICO") is one of India's leading consumer products
                             companies, in the global beauty and wellness space.

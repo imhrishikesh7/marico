@@ -5,6 +5,7 @@ import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Toolti
 import { Bar } from 'react-chartjs-2';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 import './Financial.css';
+import Leaf from '../Leaf/Leaf';
 
 // Register necessary components and plugins
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ChartDataLabels);
@@ -113,6 +114,7 @@ const Financial = () => {
 
       return (
         <div key={index} style={{ padding: '8px', height: '380px', width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          
           <h4 style={{ textAlign: 'center', marginBottom: '10px' }}>{dataset.label}</h4>
           <div style={{ flexGrow: 1, width: '80%' }}>
             <Bar data={data} options={options} />
@@ -124,7 +126,10 @@ const Financial = () => {
 
   return (
     <div className='marginal financial-component w-100'>
-      <h2 className='text-center text-4xl font-bold text-green py-8'>KEY PERFORMANCE INDICATORS</h2>
+      <h2 className='text-center text-4xl font-bold text-green py-8'>KEY PERFORMANCE INDICATORS
+
+      
+      </h2>
       <Carousel
         additionalTransfrom={0}
         arrows
@@ -164,6 +169,7 @@ const Financial = () => {
         swipeable
         style={{ width: '70%' }} // Adjust the width as needed
       >
+        
         {renderCharts()}
       </Carousel>
     </div>

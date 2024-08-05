@@ -1,19 +1,4 @@
 
-.bab-2-heading{
-    position: absolute;
-    font-weight: 600;
-    /* border: 2px solid black; */
-    /* margin: 2% 0; */
-    bottom: -45%;
-    left: 50%;
-    transform: translate(-50%);
-    display: inline-block;
-    font-size: 3vw;   
-    background-image: linear-gradient(90deg in oklab, #2B3DA1 , #005EAB);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 /* .color-bg{
     position: absolute;
     width: 50vw;
