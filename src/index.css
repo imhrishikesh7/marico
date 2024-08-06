@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.marginal{
+    width:86%;
+    margin: auto;
+}
+
+.head-a{
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.head-b{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.head-c{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.pg{
+    font-size: 18px;
+}
+.bg{
+    border:1px solid red;
+}
