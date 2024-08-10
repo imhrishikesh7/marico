@@ -1,6 +1,8 @@
-/* Import Slick Carousel CSS */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
+#root{
+    font-family: "Jost", sans-serif;
+}
 body{
   background-color: white;
   margin: 0;
@@ -14,6 +16,7 @@ body{
 }
 .text-green{
   color: #A4CF57;
+  color: #d5eefb;
 }
 .text-blue{
   color: #2366b3;
@@ -23,4 +26,13 @@ body{
 }
 .text-purple{
   color: #9484be;
+}
+.react-multiple-carousel__arrow{
+  z-index: 1 !important;
+} 
+.slick-next{
+  z-index: 1 !important;
+}
+.slick-prev{
+  z-index: 1 !important;
 }

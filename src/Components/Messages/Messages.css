@@ -1,0 +1,153 @@
+/* Messages.css */
+
+.messages-slider {
+    margin-top: 10%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.messages-slider .slick-slide {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    margin-right: -0.7%;
+    cursor: pointer; /* Add cursor pointer to indicate clickability */
+}
+
+.slick-center .slider-item {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.slick-slide:not(.slick-center) .slider-item {
+    transform: scale(0.6);
+    opacity: 0.5;
+}
+
+.slider-item {
+    padding: 0 20px; /* Increase padding to accommodate larger cards */
+}
+
+.card {
+    display: flex;
+    background-color: rgb(128, 128, 128, 0.02);
+    background-color: #87c0e6;
+    flex-direction: row; /* Ensure the image and content are in a row */
+    align-items: center; /* Center items vertically */
+    justify-content: space-evenly; /* Align items to the start horizontally */
+    width: 100%; /* Adjust to make the card wider */
+    max-width: 1200px; /* Optionally limit the max width */
+    /* background: white; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+    /* overflow: hidden; */
+    text-align: left;
+    margin: 0 auto; /* Center the card horizontally */
+}
+
+.c1 p{
+    position: relative;
+    color: rgba(244, 127, 32);
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.c2 p{
+    position: relative;
+    color: rgb(90, 169, 221);
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.quo-1{
+    position: absolute;
+    width: 55px;
+    top: -5vh;
+    left: -3vw;
+}
+.quo-2{
+    position: absolute;
+    width: 40px;
+    transform: rotate(180deg);
+    bottom: -3vh;
+    right: -2vw;
+}
+
+
+.card-image {
+    width: 40%; /* Adjust as necessary */
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    /* border: 2px solid black; */
+    margin: auto;
+    /* background-color: white; */
+    border-radius: 10px;
+    width: 40%; /* Ensure it takes up the remaining space */
+    padding: 20px;
+}
+.card-content h2{
+    font-size: 1.1em;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    /* margin: 0; */
+    font-weight: 500;
+    /* border: 2px solid black; */
+}
+.card-content h3 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+
+
+/* Hide the left inactive slide */
+.slick-center ~ .slick-slide:not(.slick-center) {
+    display: none;
+}
+
+/* Show the right inactive slide */
+.slick-slide.slick-center + .slick-slide:not(.slick-center) {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column; /* Stack image and content vertically */
+    }
+
+    
+
+    .card-content {
+        width: 100% !important; /* Full width for content on small screens */
+    }
+
+
+    .card-content p {
+        font-size: 0.7em; /* Adjust text size for readability */
+
+    }
+    .quo-1{
+        position: absolute;
+        width: 40px;
+        top: -5vh;
+        left: -3vw;
+    }
+    .quo-2{
+        position: absolute;
+        width: 30px;
+        transform: rotate(180deg);
+        bottom: -3vh;
+        right: -2vw;
+    }
+    .messages-slider .slick-slide {
+        margin-right: -0.4%;
+    }
+    .card-content-wrap h2{
+        font-size: 1em;
+        width: 90%;
+        margin: 5%;
+    }
+
+}

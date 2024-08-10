@@ -41,12 +41,12 @@ const Leadership = () => {
     members: {
       title1: "Know our Board",
       title2: "Members",
-      clr: "pink",
+      clr: "#efa5b1",
     },
     team: {
       title1: "Know our Management",
       title2: "Team",
-      clr: "purple",
+      clr: "#9484be",
     },
   };
 
@@ -146,8 +146,8 @@ const Leadership = () => {
           </Slider>
         </motion.div>
       </AnimatePresence>
-         <Leaf fill={"#f8e0e3"} top={"0%"} right={"10vw"} width={"15vw"}/>
-         <Leaf fill={"#e3efcd"} top={"10vh"} left={"15vw"} width={"7vw"} rotate={"-90"}/>
+         <Leaf fill={"#f8e0e3"} top={"0%"} right={"10vw"} width={"15vw"} animate={1}/>
+         <Leaf fill={"#e3efcd"} top={"10vh"} left={"15vw"} width={"7vw"} rotate={-90} animate={1}/>
     </div>
   );
 };

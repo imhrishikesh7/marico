@@ -3,6 +3,7 @@ import './About.css';
 import Headings from '../Headings/Headings';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import LinkBtn from '../LinkBtn/LinkBtn';
 
 const images = [
     './homepage/Group1.png',
@@ -23,7 +24,7 @@ const About = () => {
     }, [isMobile]);
 
     return (
-        <div className='marginal'>
+        <div className='marginal my-4'>
             <div className='about-section'>
                 <div className='row about-row justify-content-center'>
                     <div className='col-lg-6 abt-imgs'>
@@ -44,7 +45,7 @@ const About = () => {
                             Marico (BSE 531642, NSE "MARICO") is one of India's leading consumer products
                             companies, in the global beauty and wellness space.
                         </p>
-
+                        <LinkBtn/>
                         <div className='image-container'>
                             {['yellow@2x.png', 'orange@2x.png', 'Blue@2x.png', 'Pink@2x.png'].map((image, index) => (
                                 <RotatingImage

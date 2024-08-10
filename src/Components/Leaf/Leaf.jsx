@@ -1,8 +1,20 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
-const Leaf = ({ fill, left, right, top, bottom, width, rotate}) => {
+const Leaf = ({ fill, left, right, top, bottom, width, rotate, animate }) => {
+  const animationProps = animate
+    ? {
+        initial: { scale: 0, y: 20 },
+        whileInView: { scale: 1, y: 0 },
+        transition: {
+          scale: { duration: 1 },
+          y: { duration: 1 }
+        }
+      }
+    : {};
+
   return (
-    <div
+    <motion.div
       className="leaf-wrapper"
       style={{
         position: "absolute",
@@ -11,9 +23,10 @@ const Leaf = ({ fill, left, right, top, bottom, width, rotate}) => {
         right: `${right}`,
         top: `${top}`,
         bottom: `${bottom}`,
-        zIndex: `-1`,
-        transform: `rotate(${rotate}deg)`
+        zIndex: `1`,
       }}
+      animate={{ rotate }}
+      {...animationProps}
     >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.9 75">
         <g>
@@ -26,7 +39,7 @@ const Leaf = ({ fill, left, right, top, bottom, width, rotate}) => {
           </g>
         </g>
       </svg>
-    </div>
+    </motion.div>
   );
 };
 
