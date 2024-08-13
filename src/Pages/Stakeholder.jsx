@@ -1,10 +1,20 @@
 import React from 'react'
+import Headings from '../Components/Headings/Headings'
 
 function Stakeholder() {
   return (
     <div className=' marginal'>
+        <div className='bg-[#faa72f] p-3'>
+        <b className='fs-4 text-light my-4'>STAKEHOLDER ENGAGEMENT</b>
+            <Headings
+                he1={"Nurturing Bonds for Equitable"}
+                he2={"Growth"}
+                clr2={"#fff"}
+                clr={"#fff"}
+            />
+        </div>
         <div>
-              <img src="" alt="image..................." />
+              <img src="./Stakeholder/s1.jpg" alt="" />
         </div>
         <div className='flex lg:flex-row flex-col space-x-10'>
               <div>

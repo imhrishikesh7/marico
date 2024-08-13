@@ -29,7 +29,7 @@
 .card {
     display: flex;
     background-color: rgb(128, 128, 128, 0.02);
-    background-color: #87c0e6;
+    /* background-color: #87c0e6; */
     flex-direction: row; /* Ensure the image and content are in a row */
     align-items: center; /* Center items vertically */
     justify-content: space-evenly; /* Align items to the start horizontally */

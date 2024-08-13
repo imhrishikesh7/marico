@@ -13,8 +13,8 @@ const Message = ({ quotes1, quotes02, img }) => {
         integrating environmental responsibility into our core values will enable us to
         sustain a thriving business and a healthy planet for generations to come.</p>
       <div className="flex md:flex-row flex-col justify-evenly align-middle">
-        <div className="image-container md:w-[30%] lg:w-[25%]">
-          <img src="./Environment/Enviro001.png" alt="" />
+        <div className="image-containerx md:w-[30%] lg:w-[50%] justify-content-center">
+          <img src="./Environment/Enviro001.png" className="m-auto d-block" alt="" />
         </div>
         <div className="quotes md:w-[50%] flex flex-col justify-center">
           <div>

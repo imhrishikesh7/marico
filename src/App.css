@@ -36,3 +36,43 @@ body{
 .slick-prev{
   z-index: 1 !important;
 }
+
+.message-head{
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(65, 63, 63);
+}
+.message-text-style{
+  font-size: 26px;
+  color: rgb(65, 63, 63);
+}
+.green-heading-big{
+  color: #87C54C;
+  font-size: 40px;
+  font-weight: 600;
+}
+.normal-heading-bold{
+  font-size: 22px;
+  font-weight: 500;
+}
+.medium-heading-bold{
+  font-size: 22px;
+  font-size: 400;
+}
+.normal-text-container{
+  font-size: 20px;
+}
+.greenish-bg-linear{
+  background: linear-gradient(to right,rgb(106 168 72),#8EC85F);
+}
+.spanLine{
+  line-height: 18px !important;
+}
+.border-spacial{
+  border: 2px solid rgb(106 168 72);
+  border-radius: 10px;
+  border-top: none;
+  width: 100%;
+  background: #E2F1D3;
+  margin-top: -100px;
+}

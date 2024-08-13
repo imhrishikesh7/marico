@@ -14,6 +14,7 @@ const Cover = () => {
             </video>
             <div className='themeline'>
                 <motion.h2
+                    className='text-5xl max-sm:text-xl'
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
@@ -21,6 +22,7 @@ const Cover = () => {
                     Delivering value...
                 </motion.h2>
                 <motion.h1
+                    className='text-8xl max-sm:text-4xl'
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.4 }}
@@ -28,13 +30,14 @@ const Cover = () => {
                     The
                 </motion.h1>
                 <motion.h1
+                    className='text-8xl max-sm:text-4xl'
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.6 }}
                 >
                     Mar
                     <span className='border-container'>
-                        <span className='i-wrapper'>ı</span>
+                        <span className='i-wrapper text-8xl max-sm:text-4xl'>ı</span>
                         <motion.div
                             initial={{ opacity: 0, y: -300 }}
                             animate={{
@@ -51,7 +54,7 @@ const Cover = () => {
                         >
                             <Leaf
                                 fill={"#a4cf57"}
-                                top={"-0.6em"}
+                                top={"-0.5em"}
                                 left={"0em"}
                                 width={"250%"}
                             />
@@ -60,6 +63,7 @@ const Cover = () => {
                     co
                 </motion.h1>
                 <motion.h1
+                className='text-8xl max-sm:text-4xl'
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 1.0 }}

@@ -287,15 +287,16 @@ body {
   color: #2466b3;
   text-decoration: none;
   text-transform: uppercase;
-  background-image: linear-gradient(120deg, transparent 0%, transparent 49.9%, #e5e5e5 50%);
+  background-image: linear-gradient(120deg, transparent 0%, transparent 49.9%, #a4cf57 50%);
   background-size: 227%;
   transition: all 0.4s;
 }
 
+
 .navigation__link:hover,
 .navigation__link:active {
   /* color: var(--color-primary); */
-  color: #28b485;
+  color: #fff;
   background-position: 100%;
   transform: translateX(1rem);
 }
@@ -408,13 +409,17 @@ body {
   width: 100%;
   background-color: #f0f0f0;
   /* Light background for links */
-  border-radius: 6px;
+  /* border-radius: 6px; */
   padding: 0.5rem;
   display: block;
+  transition: all 0.2s ease-in-out;
 }
 
 .sub-links-box li a:hover {
-  background-color: #e0e0e0;
+  background-color: #a4cf57;
+  color: #fff;
+  transform: scale(1.05);
+  /* font-weight: 500; */
   /* Slightly darker background on hover */
 }
 

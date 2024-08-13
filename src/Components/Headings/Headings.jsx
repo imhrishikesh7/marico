@@ -39,7 +39,7 @@ const Headings = ({ he1, he2, clr, clr2, svg }) => {
         </motion.h2>
         <motion.h1
           className={`m-0`}
-          style={{ color: clr }}
+          style={{ color: clr2 }}
           initial={headingAnimationH1.initial}
           whileInView={headingAnimationH1.whileInView}
           transition={headingAnimationH1.transition}

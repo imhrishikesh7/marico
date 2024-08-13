@@ -27,12 +27,12 @@
 
 .themeline h2{
     color: #a4cf57;
-    font-size: 3em;
+    /* font-size: 3em; */
 
 }
 .themeline h1{
     margin: 0;
-    font-size: 5em;
+    /* font-size: 5em; */
     font-weight: 700;
     color: #2366b3;
 }

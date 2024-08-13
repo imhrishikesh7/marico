@@ -204,14 +204,7 @@ function Materiality() {
          <div className='my-8'>
              <img src="./Materiality/mat-7.jpg" alt="" />
          </div>
-         <div className='my-8 flex lg:flex-row flex-col'>
-             <div>
-                  <img src="./Materiality/mat-8.jpg" alt="" />
-             </div>
-             <div>
-             <img src="./Materiality/mat-9.jpg" alt="" />
-             </div>
-         </div>
+
     </div>
   )
 }

@@ -12,13 +12,13 @@ const Navigation = () => {
       { text: 'Chairman’s message', url: '/chairmans-message' },
       { text: 'MD & CEOs message', url: '/md-ceos-message' },
       { text: 'Key performance indicators', url: '/key-performance' },
-      { text: 'Product showcase', url: '/product-showcase' },
+      // { text: 'Product showcase', url: '/product-showcase' },
       { text: 'Materiality', url: '/materiality' },
       { text: 'Business model', url: '/business-model' },
       { text: 'Risk management', url: '/risk-management' },
       { text: 'Strategy', url: '/strategy' },
-      { text: 'Board of Directors', url: '/board-of-directors' },
-      { text: 'Leadership team', url: '/leadership-team' },
+      // { text: 'Board of Directors', url: '/board-of-directors' },
+      // { text: 'Leadership team', url: '/leadership-team' },
       { text: 'Stakeholder engagement', url: '/stakeholder-engagement' },
       { text: 'Investors', url: '/investors' },
       { text: 'Consumers', url: '/consumers' },
@@ -155,13 +155,13 @@ const Navigation = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                transition={{ duration: 0.5, ease: 'easeOut' }}
+                transition={{ duration: 0.2, ease: 'easeOut' }}
               >
                 <motion.ul
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
-                  transition={{ delay: 0.5, duration: 0.5 }}
+                  transition={{ delay: 0.2, duration: 0.2 }}
                 >
                   {filteredSubLinks().map((subLink, index) => (
                     <motion.li
@@ -169,7 +169,7 @@ const Navigation = () => {
                       initial={{ opacity: 0, transform: 'translateY(20px)' }}
                       animate={{ opacity: 1, transform: 'translateY(0)' }}
                       exit={{ opacity: 0, transform: 'translateY(20px)' }}
-                      transition={{ delay: index * 0.1, duration: 0.3 }}
+                      transition={{ delay: index * 0.1, duration: 0.1 }}
                     >
                       <a
                         href={subLink.url}
