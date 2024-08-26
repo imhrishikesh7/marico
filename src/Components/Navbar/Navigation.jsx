@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Navigation.css';
 
 const Navigation = () => {
   const [activeItem, setActiveItem] = useState(null);
+  const navigate = useNavigate();
 
   const subLinks = {
     'Corporate Overview': [
@@ -13,13 +14,10 @@ const Navigation = () => {
       { text: 'Chairman’s message', url: '/chairmans-message' },
       { text: 'MD & CEOs message', url: '/md-ceos-message' },
       { text: 'Key performance indicators', url: '/key-performance' },
-      // { text: 'Product showcase', url: '/product-showcase' },
       { text: 'Materiality', url: '/materiality' },
       { text: 'Business model', url: '/business-model' },
       { text: 'Risk management', url: '/risk-management' },
       { text: 'Strategy', url: '/strategy' },
-      // { text: 'Board of Directors', url: '/board-of-directors' },
-      // { text: 'Leadership team', url: '/leadership-team' },
       { text: 'Stakeholder engagement', url: '/stakeholder-engagement' },
       { text: 'Investors', url: '/investors' },
       { text: 'Consumers', url: '/consumers' },
@@ -38,28 +36,27 @@ const Navigation = () => {
     'Financial Statements': [
       { text: 'Consolidated', url: '/consolidated' },
       { text: 'Standalone', url: '/standalone' },
-    ]
+    ],
   };
 
+ 
   const handleClick = (item) => {
-    if (!Array.isArray(subLinks[item])) {
-      setActiveItem(null); // Close sub-links when no sub-links
+    if (subLinks[item] && subLinks[item].length > 0) {
+      // Toggle sublinks if they exist
+      setActiveItem(activeItem === item ? null : item);
+    } else {
+      // Close navigation background if no sublinks
       const naviToggle = document.getElementById('navi-toggle');
       if (naviToggle) {
-        naviToggle.checked = false; // Close navigation background
+        naviToggle.checked = false;
       }
-      // Redirect for static links
-      if (subLinks[item] && subLinks[item][0].url) {
-        window.location.href = subLinks[item][0].url; // Redirect to the URL
-      }
-    } else {
-      setActiveItem(activeItem === item ? null : item); // Toggle sub-links
+      setActiveItem(null);
     }
   };
 
   const handleSubLinkClick = (url) => {
     if (url) {
-      window.location.href = url; // Redirect to the URL
+      navigate(url); // Use navigate for redirection
     }
     setActiveItem(null); // Collapse navigation on sub-link click
     const naviToggle = document.getElementById('navi-toggle');
@@ -85,7 +82,6 @@ const Navigation = () => {
 
   return (
     <div className="navigation-background">
-      {/* <div className="navigation-container"> */}
       <img src="./homepage/logo.svg" className="marico-logo" alt="Logo" />
       <div className="navigation">
         <input
@@ -143,7 +139,7 @@ const Navigation = () => {
               className="navigation__item"
               onClick={() => handleClick("Ten years' financial highlights")}
             >
-              <Link to="ten-years-financial-highlights" className="navigation__link">
+              <Link to="/ten-years-financial-highlights" className="navigation__link">
                 Ten years' financial highlights
               </Link>
             </li>
@@ -174,10 +170,7 @@ const Navigation = () => {
                     >
                       <Link
                         to={subLink.url}
-                        onClick={(e) => {
-                          e.preventDefault(); // Prevent default link behavior
-                          handleSubLinkClick(subLink.url); // Handle redirection
-                        }}
+                        onClick={() => handleSubLinkClick(subLink.url)} // Use handleSubLinkClick for redirection
                         style={{ display: subLink.text === null ? 'none' : 'block' }} // Hide text if null
                       >
                         {subLink.text || ' '}
@@ -190,7 +183,6 @@ const Navigation = () => {
           </AnimatePresence>
         </nav>
         <nav className="navigation__nav nav-responsive">
-          
           <ul className="navigation__list">
             <li className="navigation__item" onClick={() => handleClick('Home')}>
               <Link to="/" className="navigation__link">Home</Link>
@@ -215,10 +207,7 @@ const Navigation = () => {
                         <li key={index} className="sub-link-item">
                           <Link
                             to={subLink.url}
-                            onClick={(e) => {
-                              e.preventDefault();
-                              handleSubLinkClick(subLink.url);
-                            }}
+                            onClick={() => handleSubLinkClick(subLink.url)} // Use handleSubLinkClick for redirection
                           >
                             {subLink.text || ' '}
                           </Link>
@@ -236,14 +225,11 @@ const Navigation = () => {
               <Link to="/gri-index" className="navigation__link">GRI Index</Link>
             </li>
             <li className="navigation__item" onClick={() => handleClick("Ten years' financial highlights")}>
-              <Link to="ten-years-financial-highlights" className="navigation__link">Ten years' financial highlights</Link>
+              <Link to="/ten-years-financial-highlights" className="navigation__link">Ten years' financial highlights</Link>
             </li>
           </ul>
         </nav>
-        {/* </div> */}
       </div>
-
-
     </div>
   );
 };
