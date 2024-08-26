@@ -72,7 +72,7 @@ const RotatingImage = ({ src, className }) => {
             // Reset animation to start from 0 and rotate 360
             controls.start({
                 rotate: [0, 360],
-                transition: { duration: 1, ease: "easeInOut" }
+                transition: { duration: 15, ease: "linear" }
             });
         }
     }, [inView, controls]);

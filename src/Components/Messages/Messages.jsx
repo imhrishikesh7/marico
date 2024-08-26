@@ -9,16 +9,18 @@ const Messages = () => {
     const sliderRef = useRef(null);
 
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
         arrows: false,
-        centerPadding: '15%',
         nextArrow: null, // Remove next arrow
         prevArrow: null, // Remove prev arrow
+        autoplay: true, // Enable autoplay
+        autoplaySpeed: 2000, // Time in milliseconds between each slide (3 seconds)
+        pauseOnHover: true, // Pause autoplay when hovering over a slide
         responsive: [
             {
                 breakpoint: 768,
