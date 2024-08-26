@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import './Navigation.css';
 
 const Navigation = () => {
@@ -107,9 +108,9 @@ const Navigation = () => {
               className="navigation__item"
               onClick={() => handleClick('Home')}
             >
-              <a href="/" className="navigation__link">
+              <Link to="/" className="navigation__link">
                 Home
-              </a>
+              </Link>
             </li>
             {Object.keys(subLinks).map((item) => (
               <li
@@ -117,34 +118,34 @@ const Navigation = () => {
                 className="navigation__item"
                 onClick={() => handleClick(item)}
               >
-                <a href="#" className="navigation__link">
+                <Link to="#" className="navigation__link">
                   {item}
-                </a>
+                </Link>
               </li>
             ))}
             <li
               className="navigation__item"
               onClick={() => handleClick('Performance Trends')}
             >
-              <a href="/performance-trends" className="navigation__link">
+              <Link to="/performance-trends" className="navigation__link">
                 Performance Trends
-              </a>
+              </Link>
             </li>
             <li
               className="navigation__item"
               onClick={() => handleClick('GRI Index')}
             >
-              <a href="/gri-index" className="navigation__link">
+              <Link to="/gri-index" className="navigation__link">
                 GRI Index
-              </a>
+              </Link>
             </li>
             <li
               className="navigation__item"
               onClick={() => handleClick("Ten years' financial highlights")}
             >
-              <a href="ten-years-financial-highlights" className="navigation__link">
+              <Link to="ten-years-financial-highlights" className="navigation__link">
                 Ten years' financial highlights
-              </a>
+              </Link>
             </li>
           </ul>
           <AnimatePresence>
@@ -171,8 +172,8 @@ const Navigation = () => {
                       exit={{ opacity: 0, transform: 'translateY(20px)' }}
                       transition={{ delay: index * 0.1, duration: 0.1 }}
                     >
-                      <a
-                        href={subLink.url}
+                      <Link
+                        to={subLink.url}
                         onClick={(e) => {
                           e.preventDefault(); // Prevent default link behavior
                           handleSubLinkClick(subLink.url); // Handle redirection
@@ -180,7 +181,7 @@ const Navigation = () => {
                         style={{ display: subLink.text === null ? 'none' : 'block' }} // Hide text if null
                       >
                         {subLink.text || ' '}
-                      </a>
+                      </Link>
                     </motion.li>
                   ))}
                 </motion.ul>
@@ -192,7 +193,7 @@ const Navigation = () => {
           
           <ul className="navigation__list">
             <li className="navigation__item" onClick={() => handleClick('Home')}>
-              <a href="/" className="navigation__link">Home</a>
+              <Link to="/" className="navigation__link">Home</Link>
             </li>
             {Object.keys(subLinks).map((item) => (
               <li
@@ -200,7 +201,7 @@ const Navigation = () => {
                 className={`navigation__item ${activeItem === item ? 'active' : ''}`}
                 onClick={() => handleClick(item)}
               >
-                <a href="#" className="navigation__link">{item}</a>
+                <Link to="#" className="navigation__link">{item}</Link>
                 <AnimatePresence>
                   {activeItem === item && (
                     <motion.ul
@@ -212,15 +213,15 @@ const Navigation = () => {
                     >
                       {filteredSubLinks().map((subLink, index) => (
                         <li key={index} className="sub-link-item">
-                          <a
-                            href={subLink.url}
+                          <Link
+                            to={subLink.url}
                             onClick={(e) => {
                               e.preventDefault();
                               handleSubLinkClick(subLink.url);
                             }}
                           >
                             {subLink.text || ' '}
-                          </a>
+                          </Link>
                         </li>
                       ))}
                     </motion.ul>
@@ -229,13 +230,13 @@ const Navigation = () => {
               </li>
             ))}
             <li className="navigation__item" onClick={() => handleClick('Performance Trends')}>
-              <a href="/performance-trends" className="navigation__link">Performance Trends</a>
+              <Link to="/performance-trends" className="navigation__link">Performance Trends</Link>
             </li>
             <li className="navigation__item" onClick={() => handleClick('GRI Index')}>
-              <a href="/gri-index" className="navigation__link">GRI Index</a>
+              <Link to="/gri-index" className="navigation__link">GRI Index</Link>
             </li>
             <li className="navigation__item" onClick={() => handleClick("Ten years' financial highlights")}>
-              <a href="ten-years-financial-highlights" className="navigation__link">Ten years' financial highlights</a>
+              <Link to="ten-years-financial-highlights" className="navigation__link">Ten years' financial highlights</Link>
             </li>
           </ul>
         </nav>
