@@ -71,7 +71,7 @@
     width: 90%;
     height: 90%;
     border-radius: 16px;
-    object-fit: cover;    
+    object-fit: contain;    
 }
 
 .details {
