@@ -104,13 +104,13 @@ const Leadership = () => {
           className={filter === 'members' ? 'active' : ''}
           onClick={() => setFilter('members')}
         >
-          Members
+          Board Members
         </button>
         <button
           className={filter === 'team' ? 'active' : ''}
           onClick={() => setFilter('team')}
         >
-          Team
+         Management Team
         </button>
       </div>
 
