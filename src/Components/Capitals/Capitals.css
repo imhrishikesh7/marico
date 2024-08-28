@@ -1,0 +1,103 @@
+
+
+#container {
+	height: 100vh;
+	/* set width based on sections */
+	width: 800%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.horizontal-section {
+	background-color: black;
+    /* filter: brightness(0.7); */
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    background-blend-mode: multiply;
+}
+.horizontal-content-wrap{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.horizontal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+
+    width: fit-content;
+    margin: auto;
+}
+.horizontal-section:nth-child(1) {
+    background-color: rgba(0, 0, 0, 0.4); 
+	background-image: url("/homepage/cap1.png");
+    background-size: cover;
+}
+.horizontal-section:nth-child(2) {
+    background-color: rgba(0, 0, 0, 0.4); 
+	background-image: url("/homepage/cap2.png");
+    background-size: cover;
+}
+.horizontal-section:nth-child(3) {
+    background-color: rgba(0, 0, 0, 0.4); 
+	background-image: url("/homepage/cap3.png");
+    background-size: cover;
+}
+.horizontal-section:nth-child(4) {
+    background-color: rgba(0, 0, 0, 0.4); 
+	background-image: url("/homepage/cap4.png");
+    background-size: cover;
+}
+.horizontal-section:nth-child(5) {
+    background-color: rgba(0, 0, 0, 0.4); 
+    background-image: url("/homepage/cap5.png");
+    background-size: cover;
+}
+
+.horizontal-section:nth-child(6) {
+    background-color: rgba(0, 0, 0, 0.4); 
+    background-image: url("/homepage/cap7.png");
+    background-size: cover;
+}
+
+.heading {
+    display: block;
+	font-size: 5vw;
+	font-weight: 400;
+	color: white;
+    text-align: left;
+	/* letter-spacing: 1vw; */
+	text-transform: uppercase;
+}
+.horizontal-section h3{
+    display: block;
+
+    font-size: 2.5em;
+	font-weight: 400;
+	color: white;
+    text-align: left;
+	/* letter-spacing: 1vw; */
+	text-transform: uppercase;
+}
+.cap-values p{
+    font-size: 1.3em;
+	font-weight: 400;
+	color: white;
+}
+/* .horizontal-section h2{
+    display: block;
+
+    font-size: 4em;
+	font-weight: 400;
+	color: white;
+    text-align: left;
+	text-transform: uppercase;
+} */

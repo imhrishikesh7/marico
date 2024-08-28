@@ -9,6 +9,7 @@ import Messages from '../Components/Messages/Messages'
 import { StickyScroll } from '../Components/Carousel/SliderNew'
 import Intro from '../Components/Intro/Intro'
 import SwiperComponent from '../Components/ProductFilter/SwiperComponent'
+import Capitals from '../Components/Capitals/Capitals'
 
 const Home = () => {
   return (
@@ -23,8 +24,8 @@ const Home = () => {
         <SwiperComponent/>
         <Financial/>
         {/* <StickyScroll/> */}
+        <Capitals/>
         <Leadership/>
-
       
         </div>
     </div>

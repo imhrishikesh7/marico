@@ -3,6 +3,8 @@
    align-items: center;
    padding: 10px 15px;
    position: relative;
+   width: fit-content;
+   background-color: white;
    cursor: pointer;
    overflow: hidden; /* Ensure no overflow issues */
 }
