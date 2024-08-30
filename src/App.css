@@ -16,7 +16,9 @@ body{
 }
 .text-green{
   color: #A4CF57;
-  color: #d5eefb;
+}
+.text-dgreen{
+  color: #54a345;
 }
 .text-blue{
   color: #2366b3;

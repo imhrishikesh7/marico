@@ -4,7 +4,7 @@ const StewardsJourney = () => {
   return (
     <>
     
-    <div className="w-[86%] m-auto mt-4 greenish-bg-linear text-white">
+    <div className=" m-auto mt-4 greenish-bg-linear text-white">
     <div className='p-4'>
   <h3 className="normal-heading-bold mb-4 mt-2">
   Marico’s Environmental Stewardship Journey 
