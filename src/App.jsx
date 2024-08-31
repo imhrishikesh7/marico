@@ -16,6 +16,12 @@ import Communities from './Pages/Communities';
 import EnvironmentMain from './Pages/Environment/EnvironmentMain';
 import BusinessModel from './Pages/BusinessModel';
 import KeyPerf from './Pages/KeyPerf';
+import CorporateInfo from './Pages/CorporateInfo';
+import MdMsg from './Pages/MdMsg';
+import ChairmanMsg from './Pages/ChairmanMsg';
+import AboutMarico from './Pages/AboutMarico';
+import GlobalFootprint from './Pages/GlobalFootprint';
+import Awards from './Pages/Awards';
 
 
 function App() {
@@ -31,6 +37,10 @@ function App() {
       <div className='content '>
       <Routes>
       <Route path='/' element={<Home />} />
+      <Route path='/about-marico' element={<AboutMarico />} />
+      <Route path='/global-footprint' element={<GlobalFootprint />} />
+      <Route path='/message-from-md-ceo' element={<MdMsg />} />
+      <Route path='/chairmans-message' element={<ChairmanMsg />} />
       <Route path='/key-performance' element={<KeyPerf/>} />
       <Route path='/materiality' element={<Materiality/>} />
       <Route path='/business-model' element={<BusinessModel/>} />
@@ -43,6 +53,8 @@ function App() {
       <Route path='/value-chain-partners' element={<ValueChainPartners/>} />
       <Route path='/communities' element={<Communities/>} />
       <Route path='/environment' element={<EnvironmentMain/>} />
+      <Route path='/corporate-information' element={<CorporateInfo/>} />
+      <Route path='/awards-accolades' element={<Awards/>} />
       {/* <Home/> */}
       </Routes>
       </div>

@@ -32,11 +32,25 @@ export const slideInFromLeft = {
 export const slideInFromRight = {
     initial: {
         opacity: 0,
-        x: '5%',
+        x: '15%',
     },
     whileInView: {
         opacity: 1,
         x: 0,
+        transition: {
+            duration: 0.7,
+            bounce: 1,
+        },
+    },
+};
+export const slideUp = {
+    initial: {
+        opacity: 0,
+        y: '15%',
+    },
+    whileInView: {
+        opacity: 1,
+        y: 0,
         transition: {
             duration: 0.7,
             bounce: 1,

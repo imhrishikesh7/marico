@@ -153,28 +153,120 @@ const EnvironmentMain = () => {
               in packaging
             </h3>
             <p className='pg'>
-            In FY24, Marico implemented High- Resolution Computed Tomography (HRCT) paper, significantly reducing overall virgin-paper consumption without compromising strength. The project involved the removal of centre plates and the optimization of CFC dimensions across various product lines at the Perundurai and Puducherry plants. 
+              In FY24, Marico implemented High- Resolution Computed Tomography (HRCT) paper, significantly reducing overall virgin-paper consumption without compromising strength. The project involved the removal of centre plates and the optimization of CFC dimensions across various product lines at the Perundurai and Puducherry plants.
             </p>
           </div>
           <div className='col-md-4'>
             <p className='pg'>
-            These changes were part of Marico's broader circularity strategy to reduce paper usage while maintaining product quality and strength, demonstrating the company's commitment to environmental responsibility and resource efficiency.
+              These changes were part of Marico's broader circularity strategy to reduce paper usage while maintaining product quality and strength, demonstrating the company's commitment to environmental responsibility and resource efficiency.
             </p>
             <h3 className='fs-5 fw-bold my-2'>
-            R-LDPE in secondary packaging
+              R-LDPE in secondary packaging
             </h3>
             <p className='pg'>
-            Marico has made significant strides in sustainability by incorporating recycled LDPE in the packaging of various brands.  
+              Marico has made significant strides in sustainability by incorporating recycled LDPE in the packaging of various brands.
             </p>
             <h2 className='fs-3 my-4'>
-            Currently, <span className='text-dgreen'>50% of recycled LDPE</span> is used in the packaging of several value added hair oil and personal care products.
+              Currently, <span className='text-dgreen'>50% of recycled LDPE</span> is used in the packaging of several value added hair oil and personal care products.
             </h2>
             <h3 className='fs-5 fw-bold my-2'>
-            Strategic alliances to scale up the sustainable plastic agenda for  India Inc 
+              Strategic alliances to scale up the sustainable plastic agenda for  India Inc
             </h3>
           </div>
         </div>
-        <motion.img {...fadeIn} src="./Environment/env15.jpg" className='img-fluid' alt="" />
+        <motion.img {...fadeIn} src="./Environment/env15.jpg" className='img-fluid my-4' alt="" />
+        <motion.img {...fadeIn} src="./Environment/env16.jpg" className='img-fluid my-4' alt="" />
+        <motion.img {...fadeIn} src="./Environment/env17.jpg" className='img-fluid my-4' alt="" />
+
+        <div className='my-4'>
+          <h3 className='fs-5 fw-bold my-2'>
+            Applicability of Samyut framework
+          </h3>
+          <p className='pg'>
+            The Samyut framework is applicable for all our critical value chain partners, business associates and approved sub-contractors, including raw material and packaging material suppliers, logistics and transportation partners, warehouse and depot associates, third party manufacturers and service providers. Critical value chain partners are defined using three criteria – Highest procurement share or volume share in the respective category, uniqueness of materials, products and/or services and dedicated association with Marico. We expect all our partners to refer and adhere to the terms indicated under Marico’s Samyut policy and apply the outlined principles in their businesses. <br /><br />
+          </p>
+          <h3 className='fs-5 my-2 text-dgreen'>
+            Approach
+          </h3>
+          <p className='pg'>
+            Under the purview of the Samyut framework, we have implemented a maturity-based transition programme for critical supply chain partners, to foster joint sustainability efforts. The programme is split into three levels: Level 1 - Educate, Level 2- Evaluate and Level 3- Evolve.
+          </p>
+          <motion.img {...fadeIn} src="./Environment/env18.jpg" className='img-fluid my-4 w-full lg:w-[80%]' alt="" />
+
+        </div>
+
+        <div className='d-flex flex-wrap my-4'>
+          <h3 className='fs-5 w-full fw-bold my-4'>
+            FY24 progress
+          </h3>
+
+          <motion.div {...slideInFromLeft} className='w-full sm:w-[48%] lg:w-[30%] border-bottom border-dark my-2 pb-2 mx-auto sm:mx-2'>
+            <h1 className='mb-2 fs-1 text-dgreen'>82%</h1>
+            <p>
+              critical suppliers completed Level 1 certification. This includes raw materials suppliers, packaging materials suppliers and third-party manufacturing units
+            </p>
+          </motion.div>
+
+          <motion.div {...slideInFromLeft} className='w-full sm:w-[48%] lg:w-[30%] border-bottom border-dark my-2 pb-2 mx-auto sm:mx-2'>
+            <h1 className='mb-2 fs-1 text-dgreen'>26%</h1>
+            <p>
+              critical suppliers completed Level 2 certification. This includes raw materials suppliers, packaging materials suppliers and third-party manufacturing units
+            </p>
+          </motion.div>
+
+          <motion.div {...slideInFromLeft} className='w-full sm:w-[48%] lg:w-[30%] border-bottom border-dark my-2 pb-2 mx-auto sm:mx-2'>
+            <h1 className='mb-2 fs-1 text-dgreen'>94%</h1>
+            <p>
+              procurement by spends was from local/ indigenous suppliers
+            </p>
+          </motion.div>
+
+          <motion.div {...slideInFromLeft} className='w-full sm:w-[48%] lg:w-[30%] border-bottom border-dark my-2 pb-2 mx-auto sm:mx-2'>
+            <h1 className='mb-2 fs-1 text-dgreen'>19%</h1>
+            <p>
+              traceability (upto Tier-II levels) were established for agricultural raw materials
+            </p>
+          </motion.div>
+          <motion.img {...fadeIn} src="./Environment/env19.jpg" className='img-fluid my-4 w-full lg:w-[80%]' alt="" />
+        </div>
+        <div className='my-4'>
+          <h3 className='fs-5 fw-bold my-2'>
+            Samyut’s Level 2 framework – Deepening ESG Risk Management across the Value Chain
+          </h3>
+          <p className='pg mb-4'>
+            Our value chain is a complex ecosystem comprising interconnected products and services. Within this network, Environmental, Social, and Governance (ESG) risk factors are intricately interwoven across all levels. To ensure transparency, accountability and responsible sourcing practices throughout this chain, Marico has developed its Level 2 principles as the most critical step within its Samyut responsible sourcing programme.
+          </p>
+          <h3 className='fs-5 fw-bold my-2'>
+            Level 2: Rigorous Evaluation for Maximum Impact
+          </h3>
+          <p className='pg mb-4'>
+            Engagement with critical suppliers is central to the Level 2 approach. Here, we utilise ethical, environmental and social parameters as a set of quantifiable Key Performance Indicators (KPIs). It helps to rigorously evaluate suppliers' commitments, compliance with regulations, potential risks and opportunities for maximising sustainability within the entire business ecosystem
+          </p>
+          <h3 className='fs-5 fw-bold my-2'>
+            Independent Expertise for Objective Assessment
+          </h3>
+          <p className='pg mb-4'>
+            Level 2 assessments are typically conducted by independent third-party auditors. These auditors possess extensive cross-sector experience in sustainable supply chain management. It helps to accurately scrutinise the voluntary claims made by critical suppliers in Level 1 and identify potential risks and opportunities that could have a mutually beneficial impact on both Marico and the suppliers' own ecosystems.
+            <br /><br />
+            By combining Marico's Samyut framework with their own experience, these independent auditors can provide an objective assessment of supplier practices. This in-depth evaluation fosters a deeper understanding of supplier performance and allows Marico to work collaboratively with its partners to address any identified risks and make way for positive sustainability outcomes.
+          </p>
+          <h3 className='fs-5 fw-bold my-2'>
+            Marico's ESG risk & opportunity-based supplier audit framework
+          </h3>
+          <motion.img {...fadeIn} src="./Environment/env20.jpg" className='img-fluid my-4 w-full lg:w-[80%]' alt="" />
+        </div>
+        <div className='my-4'>
+          <h3 className='fs-5 text-green fw-bold my-2'>
+            From Farm to Facility: Marico's Commitment to Tier 2 Traceability in Agricultural Sourcing
+          </h3>
+          <p className='pg'>
+          We recognise the importance of venturing deeper into the agricultural supply chain to achieve tier 2 traceability for our raw materials. This necessitates gaining visibility into the very farms and agricultural practices that cultivate the ingredients that form the foundation of our products.
+          <br /><br />
+          While achieving tier 2 traceability presents a complex challenge, we remain steadfast in our commitment to extend responsible sourcing parameters beyond immediate suppliers. Several strategic methods are being explored to achieve this objective. One approach involves cultivating partnerships with certified farms and farmer cooperatives that uphold stringent sustainability standards. This collaborative approach allows for rigorous verification of agricultural practices and the sourcing locations of our raw materials. By leveraging innovative solutions, we are determined to establish transparent and immutable records, meticulously tracking the journey of our raw materials from the farm gate to our processing facilities.
+          </p>
+          <motion.img {...fadeIn} src="./Environment/env21.jpg" className='img-fluid my-4 w-full' alt="" />
+          <motion.img {...fadeIn} src="./Environment/env22.jpg" className='img-fluid my-4 w-full lg:w-[80%]' alt="" />
+        </div>
 
       </div>
 

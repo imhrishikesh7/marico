@@ -12,7 +12,7 @@ const Navigation = () => {
       { text: 'About Marico', url: '/about-marico' },
       { text: 'Global footprint', url: '/global-footprint' },
       { text: 'Chairman’s message', url: '/chairmans-message' },
-      { text: 'MD & CEOs message', url: '/md-ceos-message' },
+      { text: 'MD & CEOs message', url: '/message-from-md-ceo' },
       { text: 'Key performance indicators', url: '/key-performance' },
       { text: 'Materiality', url: '/materiality' },
       { text: 'Business model', url: '/business-model' },

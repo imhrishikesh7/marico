@@ -45,7 +45,7 @@ const About = () => {
                             Marico (BSE 531642, NSE "MARICO") is one of India's leading consumer products
                             companies, in the global beauty and wellness space.
                         </p>
-                        <LinkBtn/>
+                        <LinkBtn link={"/about-marico"}/>
                         <div className='image-container'>
                             {['yellow@2x.png', 'orange@2x.png', 'Blue@2x.png', 'Pink@2x.png'].map((image, index) => (
                                 <RotatingImage
@@ -63,7 +63,7 @@ const About = () => {
 };
 
 // Component to handle the rotating animation
-const RotatingImage = ({ src, className }) => {
+export const RotatingImage = ({ src, className }) => {
     const { ref, inView } = useInView({ triggerOnce: false }); // triggerOnce: false to reset animation every time
     const controls = useAnimation();
 
