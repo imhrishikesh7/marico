@@ -6,27 +6,43 @@ import LinkBtn from '../LinkBtn/LinkBtn';
 import Leaf from '../Leaf/Leaf';
 
 const Messages = () => {
+
+    const NextArrow = ({ onClick }) => {
+        return (
+          <div className="slick-next-custom" onClick={onClick}>
+            <img src="/homepage/right-arrow.svg" alt="Next" />
+          </div>
+        );
+      };
+      
+      const PrevArrow = ({ onClick }) => {
+        return (
+          <div className="slick-prev-custom" onClick={onClick}>
+            <img src="/homepage/left-arrow.svg" alt="Previous" />
+          </div>
+        );
+      };
     const sliderRef = useRef(null);
 
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
-        speed: 500,
+        speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        centerMode: true,
-        arrows: false,
-        nextArrow: null, // Remove next arrow
-        prevArrow: null, // Remove prev arrow
-        autoplay: true, // Enable autoplay
-        autoplaySpeed: 2000, // Time in milliseconds between each slide (3 seconds)
-        pauseOnHover: true, // Pause autoplay when hovering over a slide
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: true,
+        centerMode: false,
+        prevArrow: <PrevArrow />, // Custom previous arrow
+        nextArrow: <NextArrow />, // Custom next arrow
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 768, // Adjust the breakpoint as needed for different devices
                 settings: {
+                    centerMode: false,
                     slidesToShow: 1,
-                    centerPadding: '10%',
+                    slidesToScroll: 1,
                 },
             },
         ],
@@ -37,7 +53,7 @@ const Messages = () => {
     };
 
     return (
-        <div className='messages-slider'>
+        <div className='messages-slider bg-gradient-to-r from-cyan-500 to-[#A4CF57]'>
             <Slider ref={sliderRef} {...settings}>
                 <div className="slider-item" onClick={() => handleClick(0)}>
                     <motion.div
@@ -71,7 +87,7 @@ const Messages = () => {
                                     <img src="./homepage/quote-o.svg" alt="" className='quo-2' />
                                     I have always believed that one path-breaking innovation can have a cascading positive impact on an entire ecosystem. Marico Innovation Foundation (MIF), since its inception in 2003, has been committed to nurturing and catalysing India’s innovation landscape and ground-breaking technologies that can create large-scale socio-economic and environmental impact for millions of people.
                                 </p>
-                                    <LinkBtn />
+                                    <LinkBtn link={"/chairmans-message"} />
                             </motion.div>
                     </motion.div>
                 </div>
@@ -105,7 +121,7 @@ const Messages = () => {
                                     <img src="./homepage/quote-b.svg" alt="" className='quo-2' />
                                     It is deeply inspiring for all of us at Marico that we touch the lives of one out of every three Indians through our portfolio of brands, and reach out to millions of consumers through our international businesses as well. Catering to the aspirations of such a diverse cross-section of consumers, transcending geographic borders and cultural preferences, continues to be both an opportunity and a responsibility for your Company.
                                 </p>
-                                <LinkBtn />
+                                <LinkBtn link={"/message-from-md-ceo"}/>
                             </motion.div>
                     </motion.div>
                 </div>

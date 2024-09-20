@@ -28,14 +28,17 @@ const Navigation = () => {
       { text: 'Corporate information', url: '/corporate-information' },
       { text: 'Awards and accolades', url: '/awards-accolades' },
     ],
+  // }
+  // const subLinks2 = {
+
     'Statutory Reports': [
-      { text: 'Management Discussion and Analysis', url: '/management-discussion' },
-      { text: 'Business Responsibility and Sustainability Report', url: '/business-responsibility' },
-      { text: 'Board’s Report', url: '/boards-report' },
+      { text: 'Management Discussion and Analysis', url: '/docs/02 Marico MDA 17 07 2024.pdf',   },
+      { text: 'Business Responsibility and Sustainability Report', url: '/docs/03 Marico Limited BRSR 17 07 2024.pdf' },
+      { text: 'Board’s Report', url: '/docs/04 Marico Limited BR & CG 17.07.2024.pdf' },
     ],
     'Financial Statements': [
-      { text: 'Consolidated', url: '/consolidated' },
-      { text: 'Standalone', url: '/standalone' },
+      { text: 'Consolidated', url: '/docs/05 Marico Limited CFS 17.07.2024.pdf' },
+      { text: 'Standalone', url: '/docs/06 Marico Limited S.F.S 17.07.2024.pdf' },
     ],
   };
 
@@ -56,14 +59,22 @@ const Navigation = () => {
 
   const handleSubLinkClick = (url) => {
     if (url) {
-      navigate(url); // Use navigate for redirection
-    }
-    setActiveItem(null); // Collapse navigation on sub-link click
-    const naviToggle = document.getElementById('navi-toggle');
-    if (naviToggle) {
-      naviToggle.checked = false; // Close navigation background
+      
+      // Check if the URL ends with .pdf
+      if (url.endsWith('.pdf')) {
+        window.open(url, '_blank'); // Open PDF in a new tab
+      } else {
+        navigate(url); // Use navigate for redirection in the same tab
+      }
+      
+      setActiveItem(null); // Collapse navigation on sub-link click
+      const naviToggle = document.getElementById('navi-toggle');
+      if (naviToggle) {
+        naviToggle.checked = false; // Close navigation background
+      }
     }
   };
+  
 
   const handleNaviToggleClick = () => {
     setActiveItem(null); // Close sub-links when navigation is toggled
@@ -123,7 +134,7 @@ const Navigation = () => {
               className="navigation__item"
               onClick={() => handleClick('Performance Trends')}
             >
-              <Link to="/performance-trends" className="navigation__link">
+              <Link to="/docs/performance trandes.pdf" target='_blank' className="navigation__link">
                 Performance Trends
               </Link>
             </li>
@@ -131,7 +142,7 @@ const Navigation = () => {
               className="navigation__item"
               onClick={() => handleClick('GRI Index')}
             >
-              <Link to="/gri-index" className="navigation__link">
+              <Link to="/docs/GRI Index.pdf" target='_blank' className="navigation__link">
                 GRI Index
               </Link>
             </li>
@@ -139,7 +150,7 @@ const Navigation = () => {
               className="navigation__item"
               onClick={() => handleClick("Ten years' financial highlights")}
             >
-              <Link to="/ten-years-financial-highlights" className="navigation__link">
+              <Link to="/docs/10 years highlight.pdf" target='_blank' className="navigation__link">
                 Ten years' financial highlights
               </Link>
             </li>

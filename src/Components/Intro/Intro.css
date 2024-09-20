@@ -171,3 +171,9 @@ input:checked+.slider:before {
     font-weight: 500;
     color: #333;
 }
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    .intro-card{
+        width: 90%;
+        margin-bottom: 4%;
+    }
+}

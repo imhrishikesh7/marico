@@ -25,7 +25,7 @@ const Headings = ({ he1, he2, clr, clr2, svg }) => {
   };
 
   return (
-    <div className='d-flex heading-container flex-column flex-md-row align-items-start my-4 relative ' >
+    <div className='d-flex heading-container flex-column flex-md-row align-items-start my-3 relative ' >
       <div className='d-flex flex-column' style={{ flex: '1' }}>
         <motion.h2
           className={`m-0` }

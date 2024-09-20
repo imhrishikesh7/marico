@@ -5,11 +5,25 @@ import StewardsJourney from './Components/StewardsJourny';
 import Leaf from '../../Components/Leaf/Leaf';
 import { motion } from 'framer-motion';
 import { fadeIn, slideInFromLeft, slideInFromRight } from '../../Utilities/useAnimation';
+import Headings from '../../Components/Headings/Headings';
 
 const EnvironmentMain = () => {
 
   return (
     <div className='pg marginal'>
+      <b className='fs-4 my-4'>ENVIRONMENT</b>
+            <Headings
+                he1={"Pursuit of a Better"}
+                he2={"Tomorrow"}
+                clr2={"#54a345"}
+                clr={"#54a345"}
+            />
+            <p className='head-b'>
+            <i> The more clearly we can focus our attention on the wonders and realities of the Earth, the less tolerance we will have for its destruction.</i>
+            </p>
+            <p className='head-b ml-10'>---- Rachel Carson </p>
+            <img src="./Environment/env-cov.png" className='img-fluid my-2' alt="" />
+            
       <Message />
       <Impact />
       <StewardsJourney />

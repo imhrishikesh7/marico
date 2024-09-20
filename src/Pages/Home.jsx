@@ -10,19 +10,21 @@ import { StickyScroll } from '../Components/Carousel/SliderNew'
 import Intro from '../Components/Intro/Intro'
 import SwiperComponent from '../Components/ProductFilter/SwiperComponent'
 import Capitals from '../Components/Capitals/Capitals'
+import EightValues from '../Components/EightValues/EightValues'
 
 const Home = () => {
   return (
     <div>
         <Cover/>
         <Intro/>
-        <About/>
+        {/* <About/> */}
         <Messages/>
         <div className='my-5 '>
-        <Carousel/>
+        {/* <Carousel/> */}
+        <EightValues/>
         {/* <ProductFilter/> */}
-        <SwiperComponent/>
-        <Financial/>
+        {/* <SwiperComponent/> */}
+        {/* <Financial/> */}
         {/* <StickyScroll/> */}
         <Capitals/>
         <Leadership/>

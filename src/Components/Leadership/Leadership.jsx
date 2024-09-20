@@ -8,6 +8,21 @@ import Headings from '../Headings/Headings';
 import Leaf from '../Leaf/Leaf';
 
 const Leadership = () => {
+  const NextArrow = ({ onClick }) => {
+    return (
+      <div className="slick-next-custom" onClick={onClick}>
+        <img src="/homepage/right-arrow.svg" alt="Next" />
+      </div>
+    );
+  };
+  
+  const PrevArrow = ({ onClick }) => {
+    return (
+      <div className="slick-prev-custom" onClick={onClick}>
+        <img src="/homepage/left-arrow.svg" alt="Previous" />
+      </div>
+    );
+  };
   // Define image sets and titles
   const allImages = {
     members: [
@@ -84,6 +99,8 @@ const Leadership = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: true, // Ensure arrows are enabled
+    prevArrow: <PrevArrow />, // Custom previous arrow
+    nextArrow: <NextArrow />, 
     responsive: [
       {
         breakpoint: 768, // Adjust the breakpoint as needed for different devices

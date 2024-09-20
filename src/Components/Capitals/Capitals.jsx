@@ -40,8 +40,9 @@ const Capitals = () => {
 
             <section className="horizontal-section">
                 <div className='horizontal-content-wrap'>
+                    <h3 className='md'>INVESTORS</h3>
                 <div className='border-start pl-5 horizontal-content'>
-                    <h3>INVESTORS</h3>
+                <h3 className='sm'>INVESTORS</h3>
                     <Headings
                         he1={"Assurance of Value"}
                         he2={"Creation"}
@@ -49,16 +50,16 @@ const Capitals = () => {
                         clr={"#fff"}
                     />
                     <div className='cap-values my-4 d-flex'>
-                        <div className='border-end pr-5'>
+                        <div className='cap-val1'>
                             <h3>38.8%</h3>
                             <p>Return on net worth</p>
                         </div>
-                        <div className='ml-5'>
+                        <div className='cap-val2'>
                             <h3>11.5</h3>
                             <p>EPS</p>
                         </div>
                     </div>
-                    <LinkBtn />
+                    <LinkBtn link={"/investors"}/>
                 </div>
                 </div>
                 {/* <h1 className="heading">Horizontal Scroll</h1> */}
@@ -67,8 +68,9 @@ const Capitals = () => {
             {/* Section 02 */}
             <section className="horizontal-section">
             <div className='horizontal-content-wrap'>
+                    <h3 className='md'>CONSUMERS</h3>
                 <div className='border-start pl-5 horizontal-content'>
-                    <h3>CONSUMERS</h3>
+                <h3 className='sm'>CONSUMERS</h3>
                     <Headings
                         he1={"Prioritising consumer "}
                         he2={"expectations"}
@@ -76,17 +78,17 @@ const Capitals = () => {
                         clr={"#fff"}
                     />
                     <div className='cap-values my-4 d-flex'>
-                        <div className='border-end pr-5'>
+                        <div className='cap-val1'>
                             <h3>20+</h3>
                             <p>Brands owned by <br /> Marico India</p>
                         </div>
-                        <div className='ml-5'>
+                        <div className='cap-val2'>
                             <h3>97%</h3>
                             <p>Customer satisfaction index</p>
                         </div>
                     </div>
                     <div className=''>
-                    <LinkBtn />
+                    <LinkBtn link={"/consumers"}/>
                     </div>
                 </div>
                 </div>
@@ -95,8 +97,9 @@ const Capitals = () => {
             {/* Section 03 */}
             <section className="horizontal-section">
             <div className='horizontal-content-wrap'>
+                    <h3 className='md'>PEOPLE</h3>
                 <div className='border-start pl-5 horizontal-content'>
-                    <h3>PEOPLE</h3>
+                <h3 className='sm'>PEOPLE</h3>
                     <Headings
                         he1={"Nurturing Future-Ready"}
                         he2={"Talent"}
@@ -104,16 +107,16 @@ const Capitals = () => {
                         clr={"#fff"}
                     />
                     <div className='cap-values my-4 d-flex'>
-                        <div className='border-end pr-5'>
+                        <div className='cap-val1'>
                             <h3>28.9%</h3>
                             <p>Gender diversity in <br /> decision-making roles <br /> (Managers & Partners) </p>
                         </div>
-                        <div className='ml-5'>
+                        <div className='cap-val2'>
                             <h3>82</h3>
                             <p>Inclusion Index</p>
                         </div>
                     </div>
-                    <LinkBtn />
+                    <LinkBtn link={"/people"} />
                 </div>
                 </div>
             </section>
@@ -121,8 +124,9 @@ const Capitals = () => {
             {/* Section 04 */}
             <section className="horizontal-section">
             <div className='horizontal-content-wrap'>
+                    <h3 className='md'>VALUE CHAIN <br /> PARTNERS</h3>
                 <div className='border-start pl-5 horizontal-content'>
-                    <h3>VALUE CHAIN PARTNERS</h3>
+                    <h3 className='sm'>VALUE CHAIN PARTNERS</h3>
                     <Headings
                         he1={"Partnering for "}
                         he2={"Success"}
@@ -130,24 +134,25 @@ const Capitals = () => {
                         clr={"#fff"}
                     />
                     <div className='cap-values my-4 d-flex'>
-                        <div className='border-end pr-5'>
+                        <div className='cap-val1'>
                             <h3>717</h3>
                             <p>business associates <br /> engaged in Marico's <br />value chain</p>
                         </div>
-                        <div className='ml-5'>
+                        <div className='cap-val2'>
                             <h3>82%</h3>
                             <p>Critical suppliers completed Level 1 <br /> of Marico's Responsible Sourcing <br /> Program</p>
                         </div>
                     </div>
-                    <LinkBtn />
+                    <LinkBtn link={"/value-chain-partners"} />
                 </div>
                 </div>
             </section>
 
             <section className="horizontal-section">
             <div className='horizontal-content-wrap'>
+                    <h3 className='md'>COMMUNITIES</h3>
                 <div className='horizontal-content border-start pl-5'>
-                    <h3>COMMUNITIES</h3>
+                    <h3 className='sm'>COMMUNITIES</h3>
                     <Headings
                         he1={"Our legacy of community"}
                         he2={"empowerment"}
@@ -155,24 +160,25 @@ const Capitals = () => {
                         clr={"#fff"}
                     />
                     <div className='cap-values my-4 d-flex'>
-                        <div className='border-end pr-5'>
+                        <div className='cap-val1'>
                             <h3>1 lakh+</h3>
                             <p>Farmers cumulatively <br />enrolled in the Sustainable <br /> Agriculture program</p>
                         </div>
-                        <div className='ml-5'>
+                        <div className='cap-val2'>
                             <h3>10.3 lakh+</h3>
                             <p>children benefitted from the <br />Nihar Shanti Pathshala <br />Funwala education program</p>
                         </div>
                     </div>
-                    <LinkBtn />
+                    <LinkBtn link={"/communities"}/>
                 </div>
                 </div>
             </section>
 
             <section className="horizontal-section">
             <div className='horizontal-content-wrap'>
+                    <h3 className='md'>ENVIRONMENT</h3>
                 <div className='border-start pl-5 horizontal-content'>
-                    <h3>ENVIRONMENT</h3>
+                    <h3 className='sm'>ENVIRONMENT</h3>
                     <Headings
                         he1={"Pursuit of a Better"}
                         he2={"Tomorrow"}
@@ -180,16 +186,16 @@ const Capitals = () => {
                         clr={"#fff"}
                     />
                       <div className='cap-values my-4 d-flex'>
-                        <div className='border-end pr-5'>
+                        <div className='cap-val1'>
                             <h3>3.73 billion</h3>
                             <p>litres of water conservation  <br />potential cumulatively created<br /> till date</p>
                         </div>
-                        <div className=' ml-5'>
+                        <div className='cap-val2'>
                             <h3>67.40%</h3>
                             <p>Renewable energy share <br />in operations</p>
                         </div>
                     </div>
-                    <LinkBtn />
+                    <LinkBtn link={"/environment"}/>
                 </div>
                 </div>
             </section>

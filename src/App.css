@@ -12,6 +12,7 @@ body{
 .marginal{
   width: 86%;
   margin: 5% auto;
+  padding: 2% 0;
   max-width: 1400px;
 }
 .text-green{
@@ -86,3 +87,46 @@ body{
   background: #E2F1D3;
   margin-top: -100px;
 }
+
+.slick-prev::before,
+.slick-next::before {
+  content: ''; /* Clear existing content */
+  display: inline-block; /* Ensure the element is treated as a block */
+  background-size: contain; /* Adjust background size */
+  background-repeat: no-repeat; /* Prevent repeating */
+  width: 20px; /* Set width */
+  height: 20px; /* Set height */
+}
+
+.slick-prev-custom,
+.slick-next-custom {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  width: 40px;  /* Adjust arrow size */
+  height: 40px;  /* Adjust arrow size */
+  transition: transform 0.3s ease;
+}
+.slick-prev-custom:hover,
+.slick-next-custom:hover{
+  transform: translateY(-50%) scale(1.1);
+}
+
+.slick-prev-custom {
+  left: -40px;  /* Adjust left arrow position */
+}
+
+.slick-next-custom {
+  right: -40px;  /* Adjust right arrow position */
+}
+
+.slick-prev-custom img,
+.slick-next-custom img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+

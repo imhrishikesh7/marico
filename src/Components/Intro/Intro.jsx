@@ -56,7 +56,7 @@ const Intro = () => {
         fill={"#ffe192"}
         bottom={"50%"}
         left={"-7em"}
-        width={"10%"}
+        width={"8%"}
         rotate={-30}
         animate={1}
       />
@@ -65,7 +65,7 @@ const Intro = () => {
         fill={"rgb(164, 207, 87, 0.4)"}
         bottom={"0"}
         left={"-15em"}
-        width={"70%"}
+        width={"55%"}
         animate={1}
       />
         <motion.h2
@@ -162,7 +162,6 @@ const Intro = () => {
 </span>
       </div>
         <div className=''>
-          <h2 className='h2 text-light mb-10'>Our ethos</h2>
           <motion.div
             initial={{ x: '-100%', opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -175,39 +174,13 @@ const Intro = () => {
                 <img src={card.icon} alt={`${card.title} Icon`} />
                 <h3>{card.title}</h3>
                 <div className='intro-card-content'>
-                  <p>{card.text}</p>
+                  <p className='text-xl'>{card.text}</p>
                 </div>
               </div>
             ))}
           </motion.div>
         </div>
       </div>
-
-      {/* Uncomment and configure slider if needed */}
-      {/* <div className="carousel-container">
-        <AnimatePresence>
-          <motion.div
-            key={animateKey}
-            className="slider-container"
-            variants={containerVariants}
-            initial="hidden"
-            animate="visible"
-            exit="hidden"
-          >
-            <Slider {...settings}>
-              {allImages[filter].map((image, index) => (
-                <motion.div
-                  key={index}
-                  className="carousel-slide"
-                  variants={itemVariants}
-                >
-                  <img src={image} alt={`Slide ${index + 1}`} className="carousel-image" />
-                </motion.div>
-              ))}
-            </Slider>
-          </motion.div>
-        </AnimatePresence>
-      </div> */}
     </div>
   );
 };
