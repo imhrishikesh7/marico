@@ -38,8 +38,8 @@
 .quo-1{
   position: absolute;
   width: 55px;
-  top: -5vh;
-  left: -3vw;
+  top: -6vh;
+  left: -5vw;
 }
 .quo-2{
   position: absolute;
@@ -124,13 +124,13 @@
   }
   .quo-1{
       position: absolute;
-      width: 40px;
+      width: 30px;
       top: -5vh;
       left: -3vw;
   }
   .quo-2{
       position: absolute;
-      width: 30px;
+      width: 20px;
       transform: rotate(180deg);
       bottom: -3vh;
       right: -2vw;

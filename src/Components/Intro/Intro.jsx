@@ -51,7 +51,7 @@ const Intro = () => {
 
   return (
     <div className='intro-container row align-items-center justify-center relative'>
-      
+
       <Leaf
         fill={"#ffe192"}
         bottom={"50%"}
@@ -61,13 +61,13 @@ const Intro = () => {
         animate={1}
       />
       <div className='themeline2 col-md-3 relative'>
-      <Leaf
-        fill={"rgb(164, 207, 87, 0.4)"}
-        bottom={"0"}
-        left={"-15em"}
-        width={"55%"}
-        animate={1}
-      />
+        <Leaf
+          fill={"rgb(164, 207, 87, 0.4)"}
+          bottom={"0"}
+          left={"-15em"}
+          width={"55%"}
+          animate={1}
+        />
         <motion.h2
           className='text-4xl max-sm:text-xl'
           initial={{ opacity: 0, x: -50 }}
@@ -140,27 +140,26 @@ const Intro = () => {
         </p>
       </div>
 
-      <div className='bg-green-grad'>
-         {/* Switch Button */}
- <div className="switch-container">
-        <label className="switch">
-          <input type="checkbox" onChange={toggleCategory} checked={activeCategory === 'act'} />
-          <span className="slider round"></span>
-        </label>
-        <span className="switch-label" style={{ whiteSpace: "pre-line", lineHeight: "1.2" }}>
-  {activeCategory === 'think' ? (
-    <>
-      The Way We {"\n"} 
-      <span style={{ fontSize: "2.5em", fontWeight: "bold" }}>Think</span>
-    </>
-  ) : (
-    <>
-      The Way We {"\n"} 
-      <span style={{ fontSize: "2.5em", fontWeight: "bold" }}>Act</span>
-    </>
-  )}
-</span>
-      </div>
+      {/* <div className='bg-green-grad'>
+        <div className="switch-container">
+          <label className="switch">
+            <input type="checkbox" onChange={toggleCategory} checked={activeCategory === 'act'} />
+            <span className="slider round"></span>
+          </label>
+          <span className="switch-label" style={{ whiteSpace: "pre-line", lineHeight: "1.2" }}>
+            {activeCategory === 'think' ? (
+              <>
+                The Way We {"\n"}
+                <span style={{ fontSize: "2.5em", fontWeight: "bold" }}>Think</span>
+              </>
+            ) : (
+              <>
+                The Way We {"\n"}
+                <span style={{ fontSize: "2.5em", fontWeight: "bold" }}>Act</span>
+              </>
+            )}
+          </span>
+        </div>
         <div className=''>
           <motion.div
             initial={{ x: '-100%', opacity: 0 }}
@@ -180,7 +179,7 @@ const Intro = () => {
             ))}
           </motion.div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

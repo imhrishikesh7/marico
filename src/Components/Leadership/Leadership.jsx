@@ -113,7 +113,7 @@ const Leadership = () => {
   };
 
   return (
-    <div className="carousel-container">
+    <div className="carousel-container my-5">
       <h3 className='text-center my-4'>OUR LEADERSHIP</h3>
       {/* Filter buttons */}
       <div className="filter-buttons">
