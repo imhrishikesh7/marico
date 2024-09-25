@@ -206,7 +206,7 @@ body {
 }
 
 .navigation__checkbox:checked~.navigation__background {
-  transform: scale(100);
+  transform: scale(350);
 }
 
 .navigation__checkbox:checked~.navigation__nav {
@@ -235,9 +235,9 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 2em;
-  width: 4em;
-  height: 4em;
+  right: 20px;
+  width: 1em;
+  height: 1em;
   border-radius: 50%;
   background-color: #fff;
   z-index: -1;
@@ -361,7 +361,7 @@ body {
   top: 50%;
   left: 40%;
   transform: translateY(-50%);
-  background-color: #fff;
+  /* background-color: #fff; */
   /* Ensure a white background for visibility */
   padding: 10px;
   z-index: 1000;

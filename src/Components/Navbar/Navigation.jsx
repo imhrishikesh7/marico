@@ -92,7 +92,7 @@ const Navigation = () => {
   };
 
   return (
-    <div className="navigation-background">
+    <div className="navigation-background ">
       <Link to="/" className="marico-logo">
       <img src="./homepage/logo.svg"  alt="Logo" />
       </Link>
@@ -110,7 +110,7 @@ const Navigation = () => {
             <span className="navigation__icon-span">&nbsp;</span>
           </span>
         </label>
-        <div className="navigation__background">&nbsp;</div>
+        <div className="navigation__background bg-gradient-to-r from-white to-[#a4cf57]">&nbsp;</div>
         <nav className="navigation__nav nav-large">
           <ul className="navigation__list">
             <li
@@ -154,6 +154,14 @@ const Navigation = () => {
             >
               <Link to="/docs/10 years highlight.pdf" target='_blank' className="navigation__link">
                 Ten years' financial highlights
+              </Link>
+            </li>
+            <li
+              className="navigation__item"
+              onClick={() => handleClick("Ten years' financial highlights")}
+            >
+              <Link to="/docs/Marico_IAR 2023-24_02.08.24.pdf" target='_blank' className="navigation__link">
+                Download Full Report
               </Link>
             </li>
           </ul>
