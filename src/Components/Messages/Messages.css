@@ -11,7 +11,7 @@
   align-items: center; /* Center items vertically */
   justify-content: space-evenly; /* Align items to the start horizontally */
   width: 100%; /* Adjust to make the card wider */
-  max-width: 1400px; /* Optionally limit the max width */
+  max-width: 1250px; /* Optionally limit the max width */
   height: 600px;
   /* background: white; */
   border-radius: 10px;
