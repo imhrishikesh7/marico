@@ -1,17 +1,30 @@
 import React from 'react';
+import './Footer.css'; // Assuming you have a separate CSS file for styling
 
 const Footer = () => {
     return (
-        <footer className="text-white py-3 w-100" style={{ backgroundColor: "#002a39"
-         }}>
-            <div className="container text-center">
-                <div className="d-md-flex justify-content-between">
-                    <div className="col-auto mb-2 mb-md-0">
-                        &copy; Marico
-                    </div>
-                    <div className="col-auto">
-                        Developed by K&A
-                    </div>
+        <footer className="site-footer">
+            <div className="footer-content">
+                {/* Logo Column */}
+                <div className="logo-column">
+                    <a href="">
+                    <img className='footer-logo' src="./homepage/logo.svg" alt="" />
+                    </a>
+                </div>
+                <div className="footer-info second-column">
+                    <h2 className="footer-business-name">© Marico</h2>
+                    <p className="footer-business-address text-black">
+                    Annual Report 2023-24
+                    </p>
+                </div>
+                {/* Navigation and Info Column */}
+                <div className="footer-info third-column">
+                    {/* <h2 className="footer-business-name">© Pitti Engineering Limited</h2> */}
+
+                    <p className="footer-business-address text-black">
+                    Developed By: 
+                    </p>
+                    <a href="https://kalolwala.com" target='_blank'><img className='w-[40px]' src="./homepage/k&a logo.svg" alt="" /></a>
                 </div>
             </div>
         </footer>

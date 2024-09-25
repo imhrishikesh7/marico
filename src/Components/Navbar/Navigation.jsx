@@ -93,7 +93,9 @@ const Navigation = () => {
 
   return (
     <div className="navigation-background">
-      <img src="./homepage/logo.svg" className="marico-logo" alt="Logo" />
+      <Link to="/" className="marico-logo">
+      <img src="./homepage/logo.svg"  alt="Logo" />
+      </Link>
       <div className="navigation">
         <input
           type="checkbox"

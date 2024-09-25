@@ -130,6 +130,8 @@ ul.pushNav {
 .logo img {
     max-width: 70px;
     width: 70px;
+    cursor: pointer;
+    z-index: 1111;
 }
 
 .scrolled .nav-background {

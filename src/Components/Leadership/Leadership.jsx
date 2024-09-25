@@ -163,8 +163,8 @@ const Leadership = () => {
           </Slider>
         </motion.div>
       </AnimatePresence>
-         <Leaf fill={"#f8e0e3"} top={"0%"} right={"10vw"} width={"15vw"} animate={1}/>
-         <Leaf fill={"#e3efcd"} top={"10vh"} left={"15vw"} width={"7vw"} rotate={-90} animate={1}/>
+         <Leaf fill={"#f8e0e3"} top={"0%"} right={"10vw"} width={"12vw"} animate={1}/>
+         <Leaf fill={"#e3efcd"} top={"0vh"} left={"10vw"} width={"12vw"} rotate={-90} animate={1}/>
     </div>
   );
 };

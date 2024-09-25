@@ -22,6 +22,7 @@ import ChairmanMsg from './Pages/ChairmanMsg';
 import AboutMarico from './Pages/AboutMarico';
 import GlobalFootprint from './Pages/GlobalFootprint';
 import Awards from './Pages/Awards';
+import ScrollToTop from './Components/ScrollToTop';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
   return (
     <div className='containerx'>
       <BrowserRouter>
+      <ScrollToTop/>
       {/* <Navbar/> */}
       <Navigation/>
       {/* <Header/> */}

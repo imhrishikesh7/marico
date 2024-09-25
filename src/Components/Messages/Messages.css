@@ -24,14 +24,14 @@
 
 .c1 p{
   position: relative;
-  color: rgba(244, 127, 32);
+  color: #f47f20;
   font-size: 1.4em;
   font-weight: 500;
 }
 
 .c2 p{
   position: relative;
-  color: rgb(90, 169, 221);
+  color: #5aa9dd;
   font-size: 1.4em;
   font-weight: 500;
 }
