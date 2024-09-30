@@ -18,12 +18,13 @@ const MdMsg = () => {
                 </div>
                 <div className="w-full md:w-[35%]">
                     <motion.p {...slideUp} className="fs-4 text-[#3eaae2] font-semibold md:text-left">
+                    <img src="./homepage/quote-b.svg" alt="" className='w-[30px] md:w-[50px] mr-3 mt-[-5%] inline-block' />
                         It is deeply inspiring for
                         all of us at Marico that we touch the lives of one out of every three Indians through our portfolio of brands,
                         and reach out to millions
                         of consumers through our international businesses
                         as well. Catering to the aspirations of such a diverse cross-section of consumers, transcending geographic borders and cultural preferences, continues to
-                        be both an opportunity and a responsibility for your Company.
+                        be both an opportunity and a responsibility for your Company. <div className='w-[30px] md:w-[50px] ml-3 mb-[-5%] inline-block rotate-180'><img src="./homepage/quote-b.svg" alt="" cclassName="" /></div>
                     </motion.p>
                 </div>
             </div>
@@ -73,8 +74,10 @@ const MdMsg = () => {
                     of the business. We expect a gradually improving growth trajectory in the core categories in light of the anticipated pickup in mass category consumption coupled with our ongoing initiatives to enhance General Trade (GT) channel partner profitability and transformative expansion in direct reach through Project SETU.
                 </motion.p>
                 <motion.p {...slideUp} className="fs-5 text-[#3eaae2] mb-3 font-semibold md:text-left">
+                <img src="./homepage/quote-b.svg" alt="" className='w-[30px] md:w-[50px] mr-3 mt-[-2%] inline-block' />
                     In FY24, your Company has delivered a resilient performance in the domestic business as growth trends in core categories steadied and new businesses scaled up in line with expectations. Healthy offtakes led
                     to market share and penetration gains in at least 75% of the business.
+                    <img src="./homepage/quote-b.svg" alt="" className='w-[30px] md:w-[40px] ml-3 mb-[-1%] inline-block rotate-180' />
                 </motion.p>
                 <motion.p {...slideUp} className='pg mb-3'>
                     Parachute has charted a steady recovery in traction as loose to branded conversions regained pace with copra prices inching up in the second half of the year. We expect to drive improving volume traction and sustained market share expansion in Parachute on the back of the brand’s pricing resilience and back-end system advantages amidst the moderately inflationary trend in copra prices.
@@ -99,8 +102,11 @@ const MdMsg = () => {
                     our product portfolio and blended the goodness of two superfoods — oats and millets in our Saffola Oats range. Saffola Soya Chunks and Saffola Honey have logged market share and penetration gains this year. The impressive scale-up of True Elements and Plix has been very encouraging, Consequently, the Foods business closed the year at ~4x its scale in FY20, even while we took a step back this year to make refinements in our supply chain, GTM strategies and cost structure. Through these initiatives, we have realised structural gross margin expansion in Foods this year.
                 </motion.p>
                 <motion.p {...slideUp} className="fs-5 text-[#3eaae2] mb-3 font-semibold md:text-left">
+                <img src="./homepage/quote-b.svg" alt="" className='w-[30px] md:w-[50px] mr-3 mt-[-2%] inline-block' />
+
                     Your Company has put
                     in place strategically building blocks to deliver double-digit revenue growth through consistent outperformance vis-à-vis the category and market share gains in the domestic core portfolios, accelerated growth in the Foods and Premium Personal Care and double-digit constant currency growth in the International business.
+                    <img src="./homepage/quote-b.svg" alt="" className='w-[30px] md:w-[40px] ml-3 mb-[-1%] inline-block rotate-180' />
                 </motion.p>
 
                 <motion.p {...slideUp} className='pg mb-3'>
@@ -145,9 +151,11 @@ const MdMsg = () => {
                     Consumer aspirations have always remained at the heart of our strategy and purpose. We are delighted to have been recognised as the ‘Most Consumer Centric Brand of the Year’ at the 3rd Smart CX Summit & Awards 2024.
                 </motion.p>
                 <motion.p {...slideUp} className="fs-5 text-[#3eaae2] mb-3 font-semibold md:text-left">
+                <img src="./homepage/quote-b.svg" alt="" className='w-[30px] md:w-[50px] mr-3 mt-[-2%] inline-block' />
                     As we embark on the
                     next phase of growth and achieve our ambitious goals, we wanted to refresh and reenergise the culture that is critical to building Marico 3.0. The objective was simple – to adapt and evolve while preserving
                     the essence of what makes Marico unique.
+                    <img src="./homepage/quote-b.svg" alt="" className='w-[30px] md:w-[40px] ml-3 mb-[-1%] inline-block rotate-180' />
                 </motion.p>
                 <motion.p {...slideUp} className='pg mb-3'>
                 Before I conclude, I must re-emphasise that we are committed to create 

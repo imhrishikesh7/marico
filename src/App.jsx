@@ -23,6 +23,9 @@ import AboutMarico from './Pages/AboutMarico';
 import GlobalFootprint from './Pages/GlobalFootprint';
 import Awards from './Pages/Awards';
 import ScrollToTop from './Components/ScrollToTop';
+import SwiperComponent from './Components/ProductFilter/SwiperComponent';
+import ManagementTeam from './Pages/ManagemetTeam';
+import BoardMembers from './Pages/BoardMembers';
 
 
 function App() {
@@ -48,6 +51,8 @@ function App() {
       <Route path='/business-model' element={<BusinessModel/>} />
       <Route path='/risk-management' element={<RiskManagement/>} />
       <Route path='/strategy' element={<Strategy/>} />
+      <Route path='/board-of-directors' element={<BoardMembers/>} />
+      <Route path='/management-team' element={<ManagementTeam/>} />
       <Route path='/stakeholder-engagement' element={<Stakeholder/>} />
       <Route path='/investors' element={<Investor/>} />
       <Route path='/consumers' element={<Consumers/>} />
@@ -57,6 +62,7 @@ function App() {
       <Route path='/environment' element={<EnvironmentMain/>} />
       <Route path='/corporate-information' element={<CorporateInfo/>} />
       <Route path='/awards-accolades' element={<Awards/>} />
+      <Route path='/product-showcase' element={<SwiperComponent/>} />
       {/* <Home/> */}
       </Routes>
       </div>

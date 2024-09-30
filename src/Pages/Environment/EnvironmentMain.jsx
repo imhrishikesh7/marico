@@ -12,18 +12,27 @@ const EnvironmentMain = () => {
   return (
     <div className='pg marginal'>
       <b className='fs-4 my-4'>ENVIRONMENT</b>
-            <Headings
-                he1={"Pursuit of a Better"}
-                he2={"Tomorrow"}
-                clr2={"#54a345"}
-                clr={"#54a345"}
-            />
-            <p className='head-b'>
-            <i> The more clearly we can focus our attention on the wonders and realities of the Earth, the less tolerance we will have for its destruction.</i>
-            </p>
-            <p className='head-b ml-10'>---- Rachel Carson </p>
-            <img src="./Environment/env-cov.png" className='img-fluid my-2' alt="" />
-            
+      <Headings
+        he1={"Pursuit of a Better"}
+        he2={"Tomorrow"}
+        clr2={"#54a345"}
+        clr={"#54a345"}
+      />
+      <p className='head-b relative p-10'>
+
+        <i> <img
+          className="w-[30px] md:w-[50px] mr-3 mt-[-5%] inline-block"
+          src="./Environment/quotest01.png"
+          alt=""
+        />The more clearly we can focus our attention on the wonders and realities of the Earth, the less tolerance we will have for its destruction. <img
+          className="w-[30px] md:w-[50px] ml-3 mb-[-2%] inline-block"
+          src="./Environment/quotes02.png"
+          alt=""
+        /></i>
+      </p>
+      <p className='head-b ml-10'>---- Rachel Carson </p>
+      <img src="./Environment/env-cov.png" className='img-fluid my-2' alt="" />
+
       <Message />
       <Impact />
       <StewardsJourney />
@@ -274,9 +283,9 @@ const EnvironmentMain = () => {
             From Farm to Facility: Marico's Commitment to Tier 2 Traceability in Agricultural Sourcing
           </h3>
           <p className='pg'>
-          We recognise the importance of venturing deeper into the agricultural supply chain to achieve tier 2 traceability for our raw materials. This necessitates gaining visibility into the very farms and agricultural practices that cultivate the ingredients that form the foundation of our products.
-          <br /><br />
-          While achieving tier 2 traceability presents a complex challenge, we remain steadfast in our commitment to extend responsible sourcing parameters beyond immediate suppliers. Several strategic methods are being explored to achieve this objective. One approach involves cultivating partnerships with certified farms and farmer cooperatives that uphold stringent sustainability standards. This collaborative approach allows for rigorous verification of agricultural practices and the sourcing locations of our raw materials. By leveraging innovative solutions, we are determined to establish transparent and immutable records, meticulously tracking the journey of our raw materials from the farm gate to our processing facilities.
+            We recognise the importance of venturing deeper into the agricultural supply chain to achieve tier 2 traceability for our raw materials. This necessitates gaining visibility into the very farms and agricultural practices that cultivate the ingredients that form the foundation of our products.
+            <br /><br />
+            While achieving tier 2 traceability presents a complex challenge, we remain steadfast in our commitment to extend responsible sourcing parameters beyond immediate suppliers. Several strategic methods are being explored to achieve this objective. One approach involves cultivating partnerships with certified farms and farmer cooperatives that uphold stringent sustainability standards. This collaborative approach allows for rigorous verification of agricultural practices and the sourcing locations of our raw materials. By leveraging innovative solutions, we are determined to establish transparent and immutable records, meticulously tracking the journey of our raw materials from the farm gate to our processing facilities.
           </p>
           <motion.img {...fadeIn} src="./Environment/env21.jpg" className='img-fluid my-4 w-full' alt="" />
           <motion.img {...fadeIn} src="./Environment/env22.jpg" className='img-fluid my-4 w-full lg:w-[80%]' alt="" />

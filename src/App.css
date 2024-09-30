@@ -15,6 +15,10 @@ body{
   padding: 2% 0;
   max-width: 1400px;
 }
+.quo-2n{
+  width: 40px;
+  transform: rotate(180deg);
+}
 .text-green{
   color: #A4CF57;
 }

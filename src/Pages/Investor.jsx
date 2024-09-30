@@ -56,10 +56,10 @@ function Investor() {
                     and build new levers of sustainable
                     growth.</p>
                     <p className='pg py-4'>During the year, the Company incurred
-                            capital expenditure of H 153 crores for
+                            capital expenditure of ₹ 153 crores for
                             capacity expansion and maintenance of
                             existing manufacturing facilities. Cash
-                            generated from operations, at H 1,436
+                            generated from operations, at ₹ 1,436
                             crores in FY24, remained the primary
                             source of liquidity for Marico. We
                             also continued to accrue savings from
@@ -77,7 +77,7 @@ function Investor() {
                         maintained profitable operations and
                         enjoyed a comfortable net cash surplus
                         . Net surplus at the end of the year
-                        stood at H 1,034 crores. While current
+                        stood at ₹ 1,034 crores. While current
                         borrowings are mainly for working
                         capital requirements, we actively explore
                         opportunities to optimise borrowing costs
@@ -110,8 +110,8 @@ function Investor() {
         <div>
               <div className='bg-[#80a0d3] p-10 text-white rounded-[20px]'>
                    <p className='head-b py-2'>Financial Performance</p>
-                   <p className='py-2 pg'>In FY24, Marico achieved a consolidated turnover of H 9,653 crores, and consolidated PAT (excluding one-offs) of
-                    H 1,470 crores, up 15% YoY. The operating margin stood at 21.0%. The Company’s dividend payout ratio for the
+                   <p className='py-2 pg'>In FY24, Marico achieved a consolidated turnover of ₹ 9,653 crores, and consolidated PAT (excluding one-offs) of
+                   ₹ 1,470 crores, up 15% YoY. The operating margin stood at 21.0%. The Company’s dividend payout ratio for the
                     year was at 83%.</p>
                     <p className='py-2 pg'>A detailed discussion on the financial and operational performance during the year under review is available in the
                     Management Discussion and Analysis section of the Report.</p>

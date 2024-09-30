@@ -18,11 +18,12 @@ const ChairmanMsg = () => {
                 </div>
                 <div className="w-full md:w-[35%]">
                     <motion.p {...slideUp} className="fs-4 text-[#f47f20] font-semibold md:text-left">
-                        I have always believed
+                        
+                    <img src="./homepage/quote-o.svg" alt="" className='w-[30px] md:w-[50px] mr-3 mt-[-5%] inline-block' />
+                    I have always believed
                         that one path-breaking innovation can have a cascading positive impact on an entire ecosystem. Marico Innovation Foundation (MIF), since its inception in 2003, has been committed to nurturing and catalysing India’s innovation landscape and ground- breaking technologies
                         that can create large-
-                        scale socio-economic and environmental impact for millions of people.
-                    </motion.p>
+                        scale socio-economic and environmental impact for millions of people. <div className='w-[30px] md:w-[50px] ml-3 mb-[-5%] inline-block rotate-180'><img src="./homepage/quote-o.svg" alt="" cclassName="" /></div></motion.p>
                 </div>
             </div>
             <div className='mt-2'>
@@ -62,11 +63,13 @@ const ChairmanMsg = () => {
                     Our dedication to building a sustainable environment is evidenced by our
                 </motion.p>
                 <motion.p {...slideUp} className="fs-5 text-[#f47f20] mb-3 font-semibold md:text-left">
+                <img src="./homepage/quote-o.svg" alt="" className='w-[30px] md:w-[50px] mr-3 mt-[-2%] inline-block' />
                     After the successful accomplishment of
                     our inaugural 5-year sustainability targets, we are enthused by the progress towards our Sustainability Vision for 2030. To translate this vision into action,
                     we have outlined eight pivotal themes namely, Climate Change (aiming
                     for Net Zero Emissions
                     in Operations), Water Stewardship, Circular Economy, Responsible Sourcing, Purposeful Brands, Diversity and Inclusion, Sustainable Agriculture and Corporate Governance.
+                    <img src="./homepage/quote-o.svg" alt="" className='w-[30px] md:w-[40px] ml-3 mb-[-1%] inline-block rotate-180' />
                 </motion.p>
                 <motion.p {...slideUp} className='pg mb-3'>
                     concerted efforts to conserve energy, achieve net carbon neutrality and reduce our reliance on fossil fuels. Notably, we have significantly reduced the intensity of GHG emissions (Scope 1+2) by 79% compared to FY13. Through initiatives such as carbon forestry and the adoption of renewable energy sources, we are actively mitigating our environmental impact and paving the way for a greener future.
@@ -83,8 +86,10 @@ const ChairmanMsg = () => {
                 <motion.p {...slideUp} className='pg mb-3'> Your Company’s dedication to sustainability has not gone unnoticed. During the year, Marico was honored to be recognized as one of the Top 3 Sustainable Companies in the FMCG Sector at the Sustainable World Conclave by BW Businessworld. The Parachute Kalpavriksha Foundation also earned esteemed accolades, including a 7-Star Rating and 1  Place in the Social Responsibility Category at the 9th International Best Practice Competition (IBPC).
                 </motion.p>
                 <motion.p {...slideUp} className="fs-5 text-[#f47f20] mb-3 font-semibold md:text-left">
+                <img src="./homepage/quote-o.svg" alt="" className='w-[30px] md:w-[50px] mr-3 mt-[-2%] inline-block' />
                     Our sustainability efforts have extended beyond environmental conservation to encompass sustainable agriculture and community development. The Parachute Kalpavriksha Foundation exemplifies this commitment, making tangible strides in improving the livelihoods
                     of farmers and fostering agricultural sustainability.
+                    <img src="./homepage/quote-o.svg" alt="" className='w-[30px] md:w-[40px] ml-3 mb-[-1%] inline-block rotate-180' />
                 </motion.p>
 
                 <motion.p {...slideUp} className='pg font-semibold text-[#86c021]'>The Marico Way</motion.p>
@@ -97,8 +102,10 @@ const ChairmanMsg = () => {
                     As your Company prepares to leap forward towards its next phase of transformation, it became evident that a cultural and values refresh was essential. With the collective input from our teams, consumers, investors, business partners, community members and stakeholders at large, we identified the key elements that formed the foundation of our Values Refresh initiative. Through extensive collaboration and feedback, we have refined our Values Charter, incorporating diverse perspectives and expectations. This evolution has led to the establishment of <span className='font-semibold text-[#f47f20]'> 'The Marico Way',</span> defined by three fundamental pillars: Our Reason for Existence <span className='font-semibold text-[#f47f20]'>– PURPOSE</span>; Our way of Being <span className='font-semibold text-[#f47f20]'>– ETHOS</span> (our Non-Negotiables); and the Way we Think and Act <span className='font-semibold text-[#f47f20]'>– VALUES.</span> This framework provides us with the tools to align our actions, decisions and organizational trajectory with a clear sense of purpose, thereby reinforcing our unique identity and principles, and upholding a set of guiding values that steer our success.
                 </motion.p>
                 <motion.p {...slideUp} className="fs-5 text-[#f47f20] mb-3 font-semibold md:text-left">
+                <img src="./homepage/quote-o.svg" alt="" className='w-[30px] md:w-[50px] mr-3 mt-[-2%] inline-block' />
                     Your Company’s dedication to sustainability has not gone unnoticed. During the year, Marico was honored to be recognized as one of the Top 3 Sustainable Companies
                     in the FMCG Sector at the Sustainable World Conclave by BW Businessworld. The Parachute Kalpavriksha Foundation also earned esteemed accolades, including a 7-Star Rating and 1  Place in the Social Responsibility Category at the 9th International Best Practice Competition (IBPC).
+                    <img src="./homepage/quote-o.svg" alt="" className='w-[30px] md:w-[40px] ml-3 mb-[-1%] inline-block rotate-180' />
                 </motion.p>
                 <motion.p {...slideUp} className='pg mb-3'>
                     I must also re-emphasize that the newly refreshed values represent a natural evolution from the current set of values and seamlessly integrate our legacy with emerging trends that we must embrace and adapt to in order to succeed.
