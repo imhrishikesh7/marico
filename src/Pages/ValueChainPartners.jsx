@@ -154,7 +154,7 @@ const ValueChainPartners = () => {
                 Convertors share the responsibility of transforming our products into packaged finished goods, that are ready for dispatch. <br />
                 We assist our partners by:
             </p>
-            <img src="./value-chain/vc13.jpg" className='img-fluid my-2 w-[80%] max-md:w-full' alt="" />
+            <img src="./value-chain/vc13.png" className='img-fluid my-2 w-[80%] max-md:w-full' alt="" />
             <div className='p-4 pg text-light rounded' style={{ background: "linear-gradient(to right, #e05576, #f1acbc)" }}>
                 <b>Logistics and Transportation </b>
                 <p className='mt-4'>

@@ -72,8 +72,12 @@ const CorporateInfo = () => {
                             COMMITTEE
                         </h3>
                         <li className='fs-5 fw-bold my-2'>
-                            Mr. Harsh Mariwala
+                        Mr. Ananth Sankaranarayanan
                             <p className='pg fw-normal'>Chairman</p>
+                        </li>
+                        <li className='fs-5 fw-bold my-2'>
+                            Mr. Harsh Mariwala
+                            <p className='pg fw-normal'>Member</p>
                         </li>
                         <li className='fs-5 fw-bold my-2'>
                             Mr. Saugata Gupta
@@ -244,6 +248,11 @@ const CorporateInfo = () => {
                         <li className='pg my-2 underline'>
                             <Link to="https://www.parachuteadvansed.com" >
                                 www.parachuteadvansed.com
+                            </Link>
+                        </li>
+                        <li className='pg my-2 underline'>
+                            <Link to="https://www.mylivonmysalon.com" >
+                            www.mylivonmysalon.com
                             </Link>
                         </li>
                         <li className='pg my-2 underline'>

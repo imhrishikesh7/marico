@@ -1084,18 +1084,8 @@ function Consumers() {
                               <div className='bg-[#0066b3] w-8 h-2'></div>
                          </div>
                          <div>
-                              <p className='py-4 pg'>Parachute Just for Baby has the proposition, ‘So safe, it is
-                                   recommended by moms’. The brand has earned the trust of
-                                   numerous moms, over the last five years, who are delighted
-                                   by the brand experience. To provide a platform for
-                                   sharing such experiences, the brand launched a campaign
-                                   focused on sharing recommendations from real moms. By
-                                   encouraging mothers to tag others in a digital contest, the
-                                   campaign fostered trust and engagement. Monthly winners
-                                   received gifts and this strategy significantly increased
-                                   the brand's digital mentions and enhanced brand loyalty,
-                                   showcasing the power of community-driven campaigns in
-                                   carrying forward a branding message.</p>
+                              <p className='py-4 pg'>Parachute Naturale Shampoo distinguishes itself by its use of natural ingredients and deliberate avoidance of harmful chemicals while delivering strong, beautiful hair. This year, it introduced an influencer campaign with micro and nano influencers emphasizing its natural solutions while portraying the pain points that trigger user emotions. The brand launched a TikTok Ad Campaign 
+                              to appeal the new age consumers, helping the brand to enhance reach while staying modern and contemporary. </p>
                          </div>
                     </div>
                     <div className='flex flex-col justify-center'>
@@ -1135,7 +1125,7 @@ function Consumers() {
                </div>
                <div>
                     <p className='head-b'>Campaigns in Vietnam</p>
-                    <div className='grid lg:grid-cols-2 grid-cols-1 gap-4 my-16'>
+                    <div className='grid lg:grid-cols-2 grid-cols-1 gap-4 mt-3 mb-16'>
                          <div >
                               <div>
                                    <p className='pg font-bold'>Xmen For Boss Deodrants :<br />
@@ -1194,14 +1184,14 @@ function Consumers() {
                               <div className='bg-[#0066b3] w-8 h-2'></div>
                          </div>
                          <div>
-                              <p className='py-4 pg'>PURITÉ De Provence celebrated the Vietnamese Women's Day in
+                              <p className='my-2 pg'>PURITÉ De Provence celebrated the Vietnamese Women's Day in
                                    October 2023 with great fanfare through the message - “Self-love
                                    is the most important love. Busy enough, love yourself more!!”.</p>
-                              <p>Online as well as offline marketing campaigns were launched to
+                              <p className='mb-2 pg'>Online as well as offline marketing campaigns were launched to
                                    promote the message of self-love among women. It urged women
                                    to set aside some time for themselves from their busy schedules to
                                    prioritise self grooming.</p>
-                              <p>The two-day event targeted women of all ages, across all social
+                              <p className='pg'>The two-day event targeted women of all ages, across all social
                                    classes.</p>
                          </div>
                     </div>
@@ -1228,9 +1218,9 @@ function Consumers() {
                               <div className='bg-[#0066b3] w-8 h-2'></div>
                          </div>
                          <div className=''>
-                              <p className='py-4 pg'>In 2023, Ôliv launched a milestone communication by associating with Miss Vietnam – Tran Tieu Vy as its
+                              <p className='mb-2 pg'>In 2023, Ôliv launched a milestone communication by associating with Miss Vietnam – Tran Tieu Vy as its
                                    brand ambassador.</p>
-                              <p>Through this bold initiative, Ôliv emphasised natural and effortless beauty through the choice of simple yet
+                              <p className='mb-2 pg'>Through this bold initiative, Ôliv emphasised natural and effortless beauty through the choice of simple yet
                                    powerful products like the Ôliv virgin oil.</p>
                               <p>The integrated campaign was launched on TV, Digital and Social media, with a special focus on promoting
                                    Shampoo and Shower Gels. It successfully engaged over ~10 million women in Vietnam.</p>

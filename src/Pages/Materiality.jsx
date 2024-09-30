@@ -107,58 +107,62 @@ function Materiality() {
                   </div>
                   <div>
                         <p className='head-c py-4 text-[#a7cf5f]'>Our 8-point commitment in this Decade of Action</p>
-                        <div className='grid lg:grid-cols-2 grid-cols-1 gap-4'>
-                              <div>
-                                    <div>
-                                          <p className='pg py-4 head-c'>Net Zero emissions in global
-                                                operations</p>
-                                          <p className='pg py-4'>We have set a net zero emissions
-                                                target for our global operations (owned
-                                                manufacturing units) by 2040. In
-                                                India, we aspire to achieve Net Zero in
-                                                operations (owned manufacturing units)
-                                                by 2030. Key enablers for Marico to
-                                                achieve this goal include transitioning
-                                                to renewable energy, investing in lowcarbon
-                                                technologies, engaging in carbon
-                                                forestry and completely phasing out fossil
-                                                fuel usage from our operations. These
-                                                efforts are anticipated to help Marico
-                                                move towards a net zero, carbon-neutral
-                                                and climate-resilient future.</p>
-                                    </div>
-                                    <div>
-                                          <p className='pg py-4 head-c'>Water Stewardship</p>
-                                          <p className='pg py-4'>We aim to achieve certified water-neutral
-                                                operations across all our manufacturing
-                                                facilities by offsetting 100% of water
-                                                consumption volume with water capacity
-                                                created for community use. Based on
-                                                the assessment of water stress potential
-                                                of our facilities we have developed
-                                                long-term plans (up to 2030) to replenish
-                                                more water than we consume in our
-                                                operations. Additionally, each facility will
-                                                adopt operational measures to optimise
-                                                surface water consumption intensity.
-                                                This will involve implementing water
-                                                efficiency systems, using rainwater for
-                                                process cooling and deploying zero
-                                                liquid discharge (ZLD) principles to
-                                                reduce overall water consumption in our
-                                                manufacturing units.</p>
-                                    </div>
+                        <div className='md:flex md:justify-between md:align-middle'>
+                              <div className='md:w-[59%]'>
+                                    <p className='pg pb-2 head-c'>Net Zero emissions in global
+                                          operations</p>
+                                    <p className='pg '>We have set a net zero emissions
+                                          target for our global operations (owned
+                                          manufacturing units) by 2040. In
+                                          India, we aspire to achieve Net Zero in
+                                          operations (owned manufacturing units)
+                                          by 2030. Key enablers for Marico to
+                                          achieve this goal include transitioning
+                                          to renewable energy, investing in lowcarbon
+                                          technologies, engaging in carbon
+                                          forestry and completely phasing out fossil
+                                          fuel usage from our operations. These
+                                          efforts are anticipated to help Marico
+                                          move towards a net zero, carbon-neutral
+                                          and climate-resilient future.</p>
                               </div>
 
-                              <div>
+
+                              <div className='md:w-[29%]'>
                                     <img src="./Materiality/mat-5.jpg" alt="" />
                               </div>
                         </div>
                   </div>
+                  <div className='md:flex md:justify-between md:items-center my-4'>
+                        <div className='md:w-[59%]'>
+                              <p className='pg pb-2 head-c'>Water Stewardship</p>
+                              <p className='pg '>We aim to achieve certified water-neutral
+                                    operations across all our manufacturing
+                                    facilities by offsetting 100% of water
+                                    consumption volume with water capacity
+                                    created for community use. Based on
+                                    the assessment of water stress potential
+                                    of our facilities we have developed
+                                    long-term plans (up to 2030) to replenish
+                                    more water than we consume in our
+                                    operations. Additionally, each facility will
+                                    adopt operational measures to optimise
+                                    surface water consumption intensity.
+                                    This will involve implementing water
+                                    efficiency systems, using rainwater for
+                                    process cooling and deploying zero
+                                    liquid discharge (ZLD) principles to
+                                    reduce overall water consumption in our
+                                    manufacturing units.</p>
+                        </div>
+                        <div className='md:w-[29%]'>
+                              <img src="./Materiality/mat-6.jpg" alt="" className='lg:w-full' />
+                        </div>
+                  </div>
                   <div>
                         <div>
-                              <p className='pg py-4 head-c'>Circular Economy</p>
-                              <p className='pg py-4'>We strive to achieve 100% recyclable
+                              <p className='pg pb-2 head-c'>Circular Economy</p>
+                              <p className='pg mb-3'>We strive to achieve 100% recyclable
                                     packaging by 2027, focusing on
                                     sustainable packaging initiatives and
                                     promoting circularity to reduce our
@@ -170,8 +174,8 @@ function Materiality() {
                                     where applicable and, in conformance
                                     with applicable legal requirements.</p>
 
-                              <p className='pg py-4 head-c'>Responsible Sourcing</p>
-                              <p className='pg py-4'>Marico’s Responsible Sourcing
+                              <p className='pg pb-2 head-c'>Responsible Sourcing</p>
+                              <p className='pg '>Marico’s Responsible Sourcing
                                     Framework, Samyut, is built on three
                                     core themes: Environmental Stewardship,
                                     Ethical Responsibilities, and Social
@@ -181,27 +185,20 @@ function Materiality() {
                                     philosophy and purpose of creating
                                     a sustainable impact across the value
                                     chain.</p>
-                              <div className='grid lg:grid-cols-2 grid-cols-1 gap-4'>
-                                    <div>
-                                          <p className='pg py-4'>By 2030, we plan to implement Samyut
-                                                Level 1 (capacity building and voluntary
-                                                commitment declarations) by certifying
-                                                100% of our critical suppliers and Samyut
-                                                Level 2 (independent risk-based external
-                                                audits to validate voluntary commitments)
-                                                by certifying 50% of our critical
-                                                suppliers who have completed Level 1.
-                                                Additionally, Marico aims to annually
-                                                report key metrics such as traceability, the
-                                                share of indigenous material procurement
-                                                and the share of sustainable materials,
-                                                as part of our 2030 responsible sourcing
-                                                goals.</p>
-                                    </div>
-                                    <div>
-                                          <img src="./Materiality/mat-6.jpg" alt="" className='lg:w-[70%]' />
-                                    </div>
-                              </div>
+                              <p className='pg mt-2 mb-3'>By 2030, we plan to implement Samyut
+                                    Level 1 (capacity building and voluntary
+                                    commitment declarations) by certifying
+                                    100% of our critical suppliers and Samyut
+                                    Level 2 (independent risk-based external
+                                    audits to validate voluntary commitments)
+                                    by certifying 50% of our critical
+                                    suppliers who have completed Level 1.
+                                    Additionally, Marico aims to annually
+                                    report key metrics such as traceability, the
+                                    share of indigenous material procurement
+                                    and the share of sustainable materials,
+                                    as part of our 2030 responsible sourcing
+                                    goals.</p>
                         </div>
                   </div>
                   <div>
@@ -227,16 +224,16 @@ function Materiality() {
                               will oversee these efforts to ensure a workplace free from discrimination and harassment.
                         </p>
                         <p className='font-semibold text-xl mb-2'>
-                        Corporate Governance, Human Rights 
-                        & Ethics
+                              Corporate Governance, Human Rights
+                              & Ethics
                         </p>
                         <p className='mb-3'>
-                        At Marico, all activities are driven by a sense of responsibility and grounded in our principles of good governance. Our corporate governance framework enables us to uphold the highest standards 
-                        of human rights, ethics and integrity throughout our operations. As part of our decade of action journey, we will continue to instil the philosophy and principles of human rights and ethics across our entire stakeholder ecosystem, including members, value chain partners and business associates. To support this, we will conduct mandatory trainings, knowledge management sessions and periodic evaluations at regular intervals. These efforts will help track performance, preparedness, risks and opportunities related to human rights and business ethics across all levels of the organisation.
+                              At Marico, all activities are driven by a sense of responsibility and grounded in our principles of good governance. Our corporate governance framework enables us to uphold the highest standards
+                              of human rights, ethics and integrity throughout our operations. As part of our decade of action journey, we will continue to instil the philosophy and principles of human rights and ethics across our entire stakeholder ecosystem, including members, value chain partners and business associates. To support this, we will conduct mandatory trainings, knowledge management sessions and periodic evaluations at regular intervals. These efforts will help track performance, preparedness, risks and opportunities related to human rights and business ethics across all levels of the organisation.
                         </p>
                         <p className='bg-gradient-to-r from-[#f7faf2] to-[#f2f8ea] p-4 text-xl'>
-                        Marico has set up a Global ESG Council 
-                        to drive leadership-driven excellence in its sustainability agenda. This 10 member cross- functional leadership team is accountable for spearheading Marico's journey ahead towards a sustainable future
+                              Marico has set up a Global ESG Council
+                              to drive leadership-driven excellence in its sustainability agenda. This 10 member cross- functional leadership team is accountable for spearheading Marico's journey ahead towards a sustainable future
                         </p>
                   </div>
                   <div className='my-8'>

@@ -184,11 +184,11 @@ const Communities = () => {
                 </div>
             </div>
             <b className='FY24 Performance my-4'>FY24 Activities</b>
-            <div className='row my-2'>
-                <p className='col-md-4'>
+            <div className='row my-2 pb-2 border-b border-black'>
+                <p className='col-md-4 md:border-r border-black'>
                     Madhya Pradesh is the first state to organise the fifth edition of <span className='text-[#2996cd] fw-bold'>‘Word Power Championship’</span> in Sehore.
                 </p>
-                <p className='col-md-4'>
+                <p className='col-md-4 md:border-r border-black'>
                     Nihar Shanti Pathshala Funwala (NSPF) hosted the <span className='text-[#2996cd] fw-bold'>‘WPC’</span> in Sehore, in association with Leap for word.
                 </p>
                 <p className='col-md-4'>
@@ -196,12 +196,21 @@ const Communities = () => {
                 </p>
             </div>
             <b className='head-b text-[#10a3ec] fx-bold italic'>Building Bridges & Illuminating Futures: Arti Kumari's Inspirational Journey in English Literacy</b>
-            <p className='pg my-2'>
-                <b>Introduction:</b> Arti Kumari, a dedicated teacher at Saint Girls Middle School in Ramgarh, Jharkhand, has transformed the lives of 239 students from grades 1 to 8. Overcoming personal challenges, Arti embraced the NSPF's English literacy program, showcasing the power of education to uplift communities.
-            </p>
-            <p className='pg my-2'>
-                <b>Background and Challenges:</b> Arti, having attended government school herself, struggled with the transition from Hindi to English during her graduation. Discovering the NSPF's English literacy program in 2021, she faced scepticism from colleagues but remained committed to her students. Completing the training, Arti recognized the program's potential for positive change.
-            </p>
+            <div className='md:flex md:justify-between md:items-center my-4'>
+                <div className='md:w-[60%]'>
+                    <p className='pg my-2'>
+                        <b>Introduction:</b> Arti Kumari, a dedicated teacher at Saint Girls Middle School in Ramgarh, Jharkhand, has transformed the lives of 239 students from grades 1 to 8. Overcoming personal challenges, Arti embraced the NSPF's English literacy program, showcasing the power of education to uplift communities.
+                    </p>
+                    <p className='pg my-2'>
+                        <b>Background and Challenges:</b> Arti, having attended government school herself, struggled with the transition from Hindi to English during her graduation. Discovering the NSPF's English literacy program in 2021, she faced scepticism from colleagues but remained committed to her students. Completing the training, Arti recognized the program's potential for positive change.
+                    </p>
+                </div>
+                <div className='md:w-[40%]'>
+                    <img src="./Strategy/comc1.png" className='md:m-auto' alt="" />
+                </div>
+
+            </div>
+
             <p className='pg my-2'>
                 <b>Student Achievements:</b> Arti's dedication bore fruit when her student, Nivika Kumari, excelled in the 2021 state-level Word Power Championship. Despite initial doubts, Nivika's success validated the program. When Nivika qualified for the Mumbai grand finale, Arti's support remained unwavering, leading to Nivika's third-rank finish, which turned sceptics into admirers.
             </p>
@@ -216,7 +225,7 @@ const Communities = () => {
             <div className='p-4 pg text-light rounded relative my-4' style={{ background: "linear-gradient(50deg, #019cd5, #025293)" }}>
                 <Leaf fill={"#9cceef"} top={"2%"} right={"2%"} width={"10vw"} animate={1} />
                 <Leaf fill={"#9cceef"} bottom={"0%"} right={"0%"} width={"8vw"} animate={1} />
-                <img src="./communities/com26.jpg" className='img-fluid my-4 d-block m-auto w-[90%]' alt="" />
+                <img src="./communities/comc2.jpg" className='img-fluid my-4 d-block m-auto w-[90%]' alt="" />
             </div>
             <h1 className='text-[#4fb4e6] text-5xl max-md:text-3xl mb-4'>
                 Case Stories
@@ -358,7 +367,7 @@ const Communities = () => {
                         The Kalpavriksha programme makes efforts to align with local government policies such as ‘double farmers income’,  ‘more crop per drop’ and the National Mission for Sustainable Agriculture.
                     </p>
                     <p className='col-md-6 my-3 border-dark border-end'>
-                        It promotes scientific farm management while boosting productivity, thereby creating relevant social interventions for improving the lives of farmers.
+                    The farmers are highly dependent on the programme implementation team and thus needs to build on sustainability aspects. 
                     </p>
                 </div>
                 <div className='col-md-3'>
@@ -426,22 +435,22 @@ const Communities = () => {
                 <b className='text-[#10a3ec] pg border-dark d-block py-2 border-bottom'>Marico Innovation Foundation</b>
                 <div className='col-md-9 row'>
                     <p className='col-md-6 my-3 border-dark border-end'>
-                    MIF's support is inherently inclusive, as it transcends specific sectors and business dimensions. This approach has yielded benefits, impacting a diverse array of organisations and end-beneficiaries, encompassing women, lactating and pregnant mothers, children, students, cancer patients as well as farmers and micro-entrepreneurs.
+                        MIF's support is inherently inclusive, as it transcends specific sectors and business dimensions. This approach has yielded benefits, impacting a diverse array of organisations and end-beneficiaries, encompassing women, lactating and pregnant mothers, children, students, cancer patients as well as farmers and micro-entrepreneurs.
                     </p>
                     <p className='col-md-6 my-3 border-dark border-end'>
-                    MIF's scale-up programme is designed to address the functional needs of startups with the goal of generating a positive socio-economic impact on society. This initiative 
-                    not only tackles the challenges encountered by startups but also contributes to the overall well-being of the larger ecosystem.
+                        MIF's scale-up programme is designed to address the functional needs of startups with the goal of generating a positive socio-economic impact on society. This initiative
+                        not only tackles the challenges encountered by startups but also contributes to the overall well-being of the larger ecosystem.
                     </p>
                     <p className='col-md-6 my-3 border-dark border-end'>
-                    MIF's support for startups aligns seamlessly with the priorities and initiatives of the Government of India, including flagship programmes like Make in India and Start-up India. Furthermore, it actively contributes to achieving seven SDGs, emphasising the organization's dedication to aligning with India's overarching vision for sustainable development.
+                        MIF's support for startups aligns seamlessly with the priorities and initiatives of the Government of India, including flagship programmes like Make in India and Start-up India. Furthermore, it actively contributes to achieving seven SDGs, emphasising the organization's dedication to aligning with India's overarching vision for sustainable development.
                     </p>
                     <p className='col-md-6 my-3 border-dark border-end'>
-                    The sustainability of MIF's support is evident, as all organisations studied reported having institutionalised the learnings to ensure ongoing and sustained benefits for their operations.
+                        The sustainability of MIF's support is evident, as all organisations studied reported having institutionalised the learnings to ensure ongoing and sustained benefits for their operations.
                     </p>
                 </div>
                 <div className='col-md-3'>
                     <p className='my-3'>
-                    MIF's support for startups has expedited their growth, subsequently leading to positive impacts on society across social, environmental and economic dimensions.
+                        MIF's support for startups has expedited their growth, subsequently leading to positive impacts on society across social, environmental and economic dimensions.
                     </p>
                 </div>
                 <img src="./communities/com38.jpg" className='img-fluid my-4' alt="" />
