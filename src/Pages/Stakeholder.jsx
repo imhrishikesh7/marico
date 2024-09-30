@@ -16,7 +16,7 @@ function Stakeholder() {
         <div>
               <img src="./Stakeholder/s1.jpg" alt="" />
         </div>
-        <div className='flex lg:flex-row flex-col space-x-10'>
+        <div className='flex lg:flex-row items-center flex-col space-x-10'>
               <div>
                   <p className='head-b text-[#504a5d]'>Marico's unwavering
                         commitment to its core values

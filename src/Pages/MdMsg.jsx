@@ -46,8 +46,8 @@ const MdMsg = () => {
                 </motion.p>
                 <motion.p {...slideUp} className='pg mb-3'>
                     While we are at the cusp of crossing
-                    H 10,000 crore in revenues, building
-                    the next H 10,000 crores over the next
+                    ₹10,000 crore in revenues, building
+                    the next  ₹10,000 crores over the next
                     5-7 years would necessitate the next leg of transformation, the key objectives of which would be to consistently outperform in the market and gain market share in the core businesses, exhibit the appetite for bold scale-up opportunities in
                     new businesses, strengthen our omni- channel distribution, leverage and expand our digital capabilities, nurture the empowering and entrepreneurial culture within the organization, and last but not least, uphold our commitment
                     to sustainability across all facets of our operations.
@@ -110,7 +110,7 @@ const MdMsg = () => {
                 </motion.p>
 
                 <motion.p {...slideUp} className='pg mb-3'>
-                    The Premium Personal Care portfolio has witnessed healthy momentum, led by the Digital-first portfolio reaching an exit ARR of ~ H450 crore. Beardo has grown threefold since FY21 with positive EBITDA this year and holds promise of delivering double-digit EBITDA margin in the coming year. Just Herbs also surpassed the H1 billion ARR at a minimal burn. The traction in Plix's Personal Care portfolio has been strong. With an operating playbook firmly in place, we expect to double the scale of Digital-first brands and deliver double-digit EBITDA margin in the portfolio by FY27.
+                    The Premium Personal Care portfolio has witnessed healthy momentum, led by the Digital-first portfolio reaching an exit ARR of ~ ₹450 crore. Beardo has grown threefold since FY21 with positive EBITDA this year and holds promise of delivering double-digit EBITDA margin in the coming year. Just Herbs also surpassed the H1 billion ARR at a minimal burn. The traction in Plix's Personal Care portfolio has been strong. With an operating playbook firmly in place, we expect to double the scale of Digital-first brands and deliver double-digit EBITDA margin in the portfolio by FY27.
                 </motion.p>
                 <motion.p {...slideUp} className='pg mb-3'>
                     With Foods and Premium Personal Care now contributing to ~20% of domestic revenues, the portfolio diversification objective has led to a marked shift in the revenue construct of the domestic business and reduction in commodity linkage of the business. We will aggressively drive this agenda and expect the share of these businesses to reach ~25% in FY27.
