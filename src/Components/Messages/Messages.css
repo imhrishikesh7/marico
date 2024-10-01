@@ -23,30 +23,31 @@
 }
 
 .c1 p{
-  position: relative;
+  /* position: relative; */
+  width: 100%;
   color: #f47f20;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 500;
 }
 
 .c2 p{
-  position: relative;
+  /* position: relative; */
   color: #5aa9dd;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 500;
 }
 .quo-1{
-  position: absolute;
+  /* position: absolute; */
   width: 55px;
-  top: -6vh;
-  left: -5vw;
+  /* top: -6vh; */
+  /* left: -5vw; */
 }
 .quo-2{
-  position: absolute;
+  /* position: absolute; */
   width: 40px;
   transform: rotate(180deg);
-  bottom: -3vh;
-  right: -2vw;
+  /* bottom: -3vh; */
+  /* right: -2vw; */
 }
 
 
@@ -63,7 +64,7 @@
   margin: auto;
   /* background-color: white; */
   border-radius: 10px;
-  width: 40%; /* Ensure it takes up the remaining space */
+  width: 50%; /* Ensure it takes up the remaining space */
   padding: 20px;
 }
 .card-content h2{

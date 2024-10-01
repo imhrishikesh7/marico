@@ -82,11 +82,28 @@ const Messages = () => {
                             <Leaf fill={"rgba(244, 127, 32, 0.5)"} top={"-2%"} right={"0%"} width={"50px"} animate={1} />
                             <h2 className='mb-5 relative'>CHAIRMAN’S PERSPECTIVE
                             </h2>
-                            <p>
-                                <img src="./homepage/quote-o.svg" alt="" className='quo-1' />
-                                <img src="./homepage/quote-o.svg" alt="" className='quo-2' />
-                                I have always believed that one path-breaking innovation can have a cascading positive impact on an entire ecosystem. Marico Innovation Foundation (MIF), since its inception in 2003, has been committed to nurturing and catalysing India’s innovation landscape and ground-breaking technologies that can create large-scale socio-economic and environmental impact for millions of people.
-                            </p>
+                            <div className="relative">
+                                <p className="inline-block">
+                                    <img
+                                        src="./homepage/quote-o.svg"
+                                        alt="Opening quote"
+                                        className="w-[30px] md:w-[50px] mr-2 mt-[-30px] align-baseline inline-block"
+                                    />
+                                    I have always believed that one path-breaking innovation can have a cascading positive impact on an entire ecosystem.
+                                    Marico Innovation Foundation (MIF), since its inception in 2003, has been committed to nurturing and catalysing India’s
+                                    innovation landscape and ground-breaking technologies that can create large-scale socio-economic and environmental
+                                    impact for millions of people.
+                                    <span className="inline-block">
+                                        <img
+                                            src="./homepage/quote-o.svg"
+                                            alt="Closing quote"
+                                            className="w-[30px] md:w-[50px] align-baseline inline-block ml-2 mb-[-30px] rotate-[180deg]"
+                                        />
+                                    </span>
+                                </p>
+                            </div>
+
+
                             <div className='regards mt-2'>
                                 <span>Regards,</span>
                                 <h4 className='font-bold mt-2 text-[#f47f20] text-xl'>Harsh Mariwala</h4>
@@ -121,11 +138,15 @@ const Messages = () => {
                             <Leaf fill={"rgba(155, 205, 238, 0.5)"} top={"-2%"} right={"0"} width={"50px"} animate={1} />
                             <h2 className='mb-5 relative'>MESSAGE FROM THE CEO AND MD
                             </h2>
-                            <p>
-                                <img src="./homepage/quote-b.svg" alt="" className='quo-1' />
-                                <img src="./homepage/quote-b.svg" alt="" className='quo-2' />
+                            <div className="relative">
+                            <p className="inline-block">
+                                <img src="./homepage/quote-b.svg" alt="" className="w-[30px] md:w-[50px] mr-2 mt-[-30px] align-baseline inline-block" />
                                 It is deeply inspiring for all of us at Marico that we touch the lives of one out of every three Indians through our portfolio of brands, and reach out to millions of consumers through our international businesses as well. Catering to the aspirations of such a diverse cross-section of consumers, transcending geographic borders and cultural preferences, continues to be both an opportunity and a responsibility for your Company.
+                                <span className="inline-block">
+                                <img src="./homepage/quote-b.svg" alt="" className='w-[30px] md:w-[50px] align-baseline inline-block ml-2 mb-[-30px] rotate-[180deg]' />
+                                </span>
                             </p>
+                            </div>
                             <div className='regards mt-2'>
                                 <span>Warm regards,</span>
                                 <h4 className='font-bold mt-2 text-[#5aa9dd] text-xl'>Saugata Gupta</h4>
