@@ -73,7 +73,7 @@ const StewardsJourney = () => {
             simultaneously safeguarding the company's business.
           </p>
           <b className="normal-text-container">Operational energy footprint </b>
-          <p className="normal-text-container mt-1">
+          <p className="normal-text-container mt-1 mb-3">
             We have developed a central energy management cell to work on a defined energy reduction strategy, in conformance with our
             business goals and targets set for every year. Energy monitoring systems accurately capture the minutest opportunities for reducing
             our operational footprint. Through a set of strategically designed ideation sessions, energy management projects are executed
@@ -167,7 +167,7 @@ const StewardsJourney = () => {
           <div className='mt-3'>
             <img className='w-[30px] md:w-[50px]' src="./Environment/greenleav.png" alt="" />
 
-            <p className="normal-text-container">
+            <p className="normal-text-container mb-3">
               <b>Emissions from value chain – Scope 3  <br /></b>
               More than 95% of our overall GHG
               emission is contributed by Scope 3
@@ -181,13 +181,13 @@ const StewardsJourney = () => {
               from the Greenhouse Gas Protocol.
             </p>
             <b>In FY24</b>
-            <div className="flex flex-wrap justify-between">
-              <div className="container-data-kpi mt-3">
-                <p className='text-[26px] font-[500] text-[#68a034]'>5,60,753 tCO<sub>2</sub> e</p>
+            <div className="flex flex-wrap justify-between my-2">
+              <div className="container-data-kpi mt-3 pr-4  border-r border-black">
+                <p className='md:text-5xl font-[400] text-[#68a034]'>5,60,753 tCO<sub>2</sub> e</p>
                 <p className='text-[18px]'>Scope 3 GHG emissions for <br />
                   India operations</p>
               </div>
-              <div className="container-data-kpi mt-3">
+              <div className="container-data-kpi mt-3 ">
                 <p className='text-[26px] font-[500] text-[#68a034]'>80.08</p>
                 <p className='text-[18px]'>Scope 3 GHG Emission Intensity
                 </p>
@@ -311,21 +311,21 @@ const StewardsJourney = () => {
 
                 <b><br />FY24 progress </b>
                 <div className="flex flex-wrap justify-between mt-[-10px]">
-                  <div className="container-data-kpi mt-3 md:w-[48%]">
+                  <div className="container-data-kpi mt-3 md:w-[48%] md:border-r border-b md:border-b-0 pb-2 border-black md:pr-4 ">
                     <p className='text-[26px] font-[500] text-[#68a034]'> {'>'}2.5x </p>
                     <p className='text-[18px]'>Water capacity  created in <br />
                       FY24 as compared to total <br />
                       consumption in operations
                     </p>
                   </div>
-                  <div className="container-data-kpi mt-3 md:w-[48%]">
+                  <div className="container-data-kpi mt-3 md:w-[48%] border-b pb-2 border-black md:border-b-0">
                     <p className='text-[18px]'>Jalgaon manufacturing unit <br />
                       externally certified as
                     </p>
                     <p className='text-[26px] font-[500] text-[#68a034]'>Water Neutral plant</p>
 
                   </div>
-                  <div className="container-data-kpi mt-3 md:w-[48%]">
+                  <div className="container-data-kpi mt-3 md:w-[48%] md:border-r md:pr-4 md:border-black border-b pb-2 border-black md:border-b-0">
                     <p className='text-[26px] font-[500] text-[#68a034]'>373 <span className="text-[22px]">
                       crore litres          </span> </p>
                     <p className='text-[18px]'>(cumulative) of water conservation <br />
@@ -333,7 +333,7 @@ const StewardsJourney = () => {
                       litres created in FY24 alone)
                     </p>
                   </div>
-                  <div className="container-data-kpi mt-3 md:w-[48%]">
+                  <div className="container-data-kpi mt-3 md:w-[48%] border-b pb-2 border-black md:border-b-0">
                     <p className='text-[26px] font-[500] text-[#68a034]'>936 <span className="text-[22px]">
                       farm ponds      </span> </p>
                     <p className='text-[18px]'>created till date of which 214 farm <br />
