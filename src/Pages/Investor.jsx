@@ -4,7 +4,7 @@ function Investor() {
      return (
           <div className='marginal'>
                <div>
-                    <p className='head-c py-4'>INVESTORS</p>
+                    <p className='head-c py-4'><img src="./homepage/ic6.png" className='w-[80px] mb-2' alt="" />INVESTORS</p>
                     <p className='head-b text-[#005aa1]'>Assurance of Value</p>
                     <p className='head-a text-[#005aa1]'>Creation</p>
                </div>

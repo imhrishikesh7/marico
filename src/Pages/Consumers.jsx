@@ -4,7 +4,7 @@ import Headings from '../Components/Headings/Headings'
 function Consumers() {
      return (
           <div className='marginal'>
-               <b className='fs-4 my-4'>CONSUMERS</b>
+               <b className='fs-4 my-4'><img src="./homepage/ic1.png" className='w-[80px] mb-2' alt="" />CONSUMERS</b>
                <Headings
                     he1={"Prioritising consumer"}
                     he2={"expectations"}
@@ -50,16 +50,16 @@ function Consumers() {
                <div className='my-8'>
                     <img src="./Consumer/cons-3.jpg" alt="" />
                </div>
-               <div className='bg-[#f99c25] p-16 text-white rounded-md my-8'>
+               <div className='bg-[#fdba2f] p-16 text-white rounded-md my-8'>
                     <div>
                          <img src="./ICONS/icon-1.svg" alt="" className='w-[6%]' />
-                         <p className='head-b'>Consumer-centric R&D</p>
+                         <p className='head-b'><img src="./Consumer/conc11.png" className='w-[70px]' alt="" /> Consumer-centric R&D</p>
                          <p className='pg py-4'>Marico has consistently focused its research and development on delving into the scientific intricacies of food,
                               skin and hair structure as well as how they interact with the product consumers utilise.</p>
                     </div>
                     <div>
                          <img src="./ICONS/icon-2.svg" alt="" className='w-[6%]' />
-                         <p className='head-b'>R&D Capabilities</p>
+                         <p className='head-b'><img src="./Consumer/conc12.png" className='w-[80px] mb-2' alt="" /> R&D Capabilities</p>
                          <p className='pg py-4'>At our advanced research and development hub situated in Mumbai, we prioritize attainment of the highest
                               quality benchmarks for every product we innovate. Our team, consisting of 101 domain experts, of which nearly
                               half (54) are women, brings forth extensive expertise in the fields of science, technology, and pharmacology.</p>

@@ -311,21 +311,21 @@ const StewardsJourney = () => {
 
                 <b><br />FY24 progress </b>
                 <div className="flex flex-wrap justify-between mt-[-10px]">
-                  <div className="container-data-kpi mt-3 min-w-[300px]">
+                  <div className="container-data-kpi mt-3 md:w-[48%]">
                     <p className='text-[26px] font-[500] text-[#68a034]'> {'>'}2.5x </p>
                     <p className='text-[18px]'>Water capacity  created in <br />
                       FY24 as compared to total <br />
                       consumption in operations
                     </p>
                   </div>
-                  <div className="container-data-kpi mt-3 min-w-[300px]">
+                  <div className="container-data-kpi mt-3 md:w-[48%]">
                     <p className='text-[18px]'>Jalgaon manufacturing unit <br />
                       externally certified as
                     </p>
                     <p className='text-[26px] font-[500] text-[#68a034]'>Water Neutral plant</p>
 
                   </div>
-                  <div className="container-data-kpi mt-3 min-w-[300px]">
+                  <div className="container-data-kpi mt-3 md:w-[48%]">
                     <p className='text-[26px] font-[500] text-[#68a034]'>373 <span className="text-[22px]">
                       crore litres          </span> </p>
                     <p className='text-[18px]'>(cumulative) of water conservation <br />
@@ -333,7 +333,7 @@ const StewardsJourney = () => {
                       litres created in FY24 alone)
                     </p>
                   </div>
-                  <div className="container-data-kpi mt-3 min-w-[300px]">
+                  <div className="container-data-kpi mt-3 md:w-[48%]">
                     <p className='text-[26px] font-[500] text-[#68a034]'>936 <span className="text-[22px]">
                       farm ponds      </span> </p>
                     <p className='text-[18px]'>created till date of which 214 farm <br />
@@ -344,8 +344,8 @@ const StewardsJourney = () => {
 
               </div>
               <div className='md:w-[50%]'>
-                <img className='object-contain rounded-md' src="./Environment/waternature.png" alt="" />
-                <span className='text-gray-700'>Jalgaon unit certified as Marico’s first Water Positive plant
+                <img className='object-contain rounded-md my-3' src="./Environment/waternature.png" alt="" />
+                <span className='text-gray-700 my-3'>Jalgaon unit certified as Marico’s first Water Positive plant
                   (Water conservation potential created for community usage is 1.58 times higher than
                   that consumed in operations</span>
               </div>

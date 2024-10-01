@@ -4,7 +4,7 @@ import Headings from '../Components/Headings/Headings'
 function People() {
      return (
           <div className='marginal'>
-               <b className='fs-4 my-4'>PEOPLE</b>
+               <b className='fs-4 my-4'><img src="./homepage/ic2.png" className='w-[80px] mb-2' alt="" />PEOPLE</b>
                <Headings
                     he1={"Nurturing Future-Ready"}
                     he2={"Talent"}
@@ -656,11 +656,11 @@ function People() {
                          </div>
                     </div>
                </div>
-               <div >
+               <div className=''>
                     <img src="./people/people-22.jpg" className='md:w-[90%]' alt="" />
                </div>
-               <div className='my-8'>
-                    <img src="./people/people-23.jpg" className='md:w-[90%]' alt="" />
+               <div className='my-8 '>
+                    <img src="./people/people-23.jpg" className='w-full ' alt="" />
                </div>
           </div>
      )

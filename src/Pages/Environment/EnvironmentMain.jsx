@@ -11,7 +11,7 @@ const EnvironmentMain = () => {
 
   return (
     <div className='pg marginal'>
-      <b className='fs-4 my-4'>ENVIRONMENT</b>
+      <b className='fs-4 my-4'><img src="./homepage/ic5.png" className='w-[80px] mb-2' alt="" />ENVIRONMENT</b>
       <Headings
         he1={"Pursuit of a Better"}
         he2={"Tomorrow"}

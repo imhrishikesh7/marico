@@ -5,7 +5,7 @@ import Leaf from '../Components/Leaf/Leaf'
 const Communities = () => {
     return (
         <div className='marginal my-5'>
-            <b className='fs-4 my-4'>COMMUNITIES</b>
+            <b className='fs-4 my-4'><img src="./homepage/ic4.png" className='w-[80px] mb-2' alt="" />COMMUNITIES</b>
             <Headings
                 he1={"Our legacy of community"}
                 he2={"empowerment"}

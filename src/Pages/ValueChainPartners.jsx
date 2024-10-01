@@ -5,7 +5,7 @@ import Leaf from '../Components/Leaf/Leaf'
 const ValueChainPartners = () => {
     return (
         <div className='marginal my-5'>
-            <b className='fs-4 my-4'>VALUE CHAIN PARTNERS</b>
+            <b className='fs-4 my-4'><img src="./homepage/ic3.png" className='w-[80px] mb-2' alt="" />VALUE CHAIN PARTNERS</b>
             <Headings
                 he1={"Partnering for"}
                 he2={"Success"}
