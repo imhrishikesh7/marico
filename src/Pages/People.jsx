@@ -32,6 +32,9 @@ function People() {
                <div>
                     <img src="./people/people-5.png" alt="" className='w-full' />
                </div>
+               <div className='my-4'>
+                    <img src="./people/sep.png" alt="" />
+               </div>
 
                <div className='bg-[#8c75b4] flex p-3 text-[#fff] my-8'>
                     <div className='mr-4'>

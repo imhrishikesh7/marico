@@ -85,6 +85,7 @@ const SwiperComponent = () => {
     original: product.image,
     thumbnail: product.image,
     description: product.name,
+    
   }));
 
   const renderImageWithDescription = (item) => (
@@ -113,7 +114,7 @@ const SwiperComponent = () => {
       <div className="country-svg-container">
         <img src={selectedCountry.svg} alt={selectedCountry.name} className="country-svg" />
       </div>
-      <ImageGallery items={images} renderItem={renderImageWithDescription} />
+      <ImageGallery showFullscreenButton={false} items={images} renderItem={renderImageWithDescription} />
     </div>
   );
 };
